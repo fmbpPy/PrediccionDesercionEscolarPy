@@ -1,0 +1,130 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 250 -H 50 -W 0.0
+Relation:     AnalisisDesercion2024-weka.filters.unsupervised.attribute.NumericToNominal-R31-weka.filters.unsupervised.attribute.Remove-R1,5,12,29,30-weka.filters.unsupervised.attribute.NumericToNominal-R3,4,5,10,11,12,13,14,15,16,17,18,21,24-weka.filters.unsupervised.attribute.MergeManyValues-C6-LGuarani-R2-2-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R3,5,7,15,17,18,23,25,29,31,32,34,36-39-weka.filters.unsupervised.attribute.MergeManyValues-C6-LLengua Indigena-R3-23-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R2,4-weka.filters.unsupervised.attribute.NumericCleaner-min-1.7976931348623157E308-min-default0.0-max1.7976931348623157E308-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R20-decimals-1-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R19-precision0-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R20-precision0-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N(-inf-3]:0 a 3-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3'-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.RenameNominalValues-R20-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R25-precision1-weka.filters.unsupervised.attribute.RenameNominalValues-R3,5,10-18,21,24,26-N0:N,1:S-weka.filters.unsupervised.attribute.RenameNominalValues-R4-N1:M,2:H-weka.filters.unsupervised.attribute.NumericToNominal-R7-8-weka.filters.unsupervised.attribute.RenameNominalValues-R7-N1:Oficial,2:Privada,3:Subvencionada-weka.filters.unsupervised.attribute.RenameNominalValues-R8-N1:Urbana,2:Rural,3:Semiurbana-weka.filters.unsupervised.attribute.NumericToNominal-R9-weka.filters.unsupervised.attribute.RenameNominalValues-R9-N1:Concepcion,2:San Pedro,3:Coordillera,4:Guaira,5:Caaguazu,6:Caazapa,7:Itaipua,8:Misiones,9:Paraguari,10:Alto Parana,11:Central,12:Neembucu,13:Amambay,14:Canindeyu,15:Presidente Hayes,16:Boqueron,17:Alto Paraguay,20:Asuncion,99:Territorio Paraguayo,100:Territorio Extranjero-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceDepartamento-R9-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Gestion-R7-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Zona-R8-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C2-Lfirst-last-weka.filters.unsupervised.instance.RemoveWithValues-S21.0-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L12-13-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L17-18-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L21-26-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L30-40-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L41-last-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L27-29-weka.filters.supervised.instance.SMOTE-C2-K5-P1000.0-S1-weka.filters.unsupervised.attribute.Remove-V-R3,10,2,1,25,26
+Instances:    1623773
+Attributes:   6
+              tiene_sobreedad
+              aprobado_ordinario
+              edad
+              grado_curso
+              nivel_pobreza
+              desertor
+Test mode:    2-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class N :
+0.1  + 
+[tiene_sobreedad=S] * -0.49 +
+[aprobado_ordinario=S] * 0.61 +
+[edad=0] * -1.09 +
+[edad=1] * -1.4 +
+[edad=2] * -1.01 +
+[edad=3] * -0.89 +
+[edad=4] * -0.67 +
+[edad=5] * -0.49 +
+[edad=6] * 0.28 +
+[edad=7] * 0.23 +
+[edad=8] * 0.25 +
+[edad=9] * 0.27 +
+[edad=10] * 0.37 +
+[edad=11] * 0.27 +
+[edad=12] * 0.23 +
+[edad=13] * -0.05 +
+[edad=14] * -0.31 +
+[edad=15] * -0.36 +
+[edad=16] * -0.53 +
+[edad=17] * -1.01 +
+[edad=18] * -1.09 +
+[edad=19] * -0.88 +
+[edad=20] * -0.91 +
+[grado_curso=5] * -0.3 +
+[grado_curso=6] * -0.23 +
+[grado_curso=7] * -0.19 +
+[grado_curso=8] * 0    +
+[grado_curso=9] * -0.03 +
+[grado_curso=10] * -0.65 +
+[grado_curso=11] * -0.1 +
+[grado_curso=12] * 0.28 +
+[grado_curso=13] * -0.06 +
+[grado_curso=14] * 0.56 +
+[grado_curso=15] * 0.94 +
+[grado_curso=79] * -0.19 +
+[grado_curso=90] * -0.64 +
+[grado_curso=91] * -1.12 +
+[nivel_pobreza='(28.9-57.9]'] * -0.08 +
+[nivel_pobreza='(57.9-inf)'] * -0.28
+
+Class S :
+-0.1 + 
+[tiene_sobreedad=S] * 0.49 +
+[aprobado_ordinario=S] * -0.61 +
+[edad=0] * 1.09 +
+[edad=1] * 1.4  +
+[edad=2] * 1.01 +
+[edad=3] * 0.89 +
+[edad=4] * 0.67 +
+[edad=5] * 0.49 +
+[edad=6] * -0.28 +
+[edad=7] * -0.23 +
+[edad=8] * -0.25 +
+[edad=9] * -0.27 +
+[edad=10] * -0.37 +
+[edad=11] * -0.27 +
+[edad=12] * -0.23 +
+[edad=13] * 0.05 +
+[edad=14] * 0.31 +
+[edad=15] * 0.36 +
+[edad=16] * 0.53 +
+[edad=17] * 1.01 +
+[edad=18] * 1.09 +
+[edad=19] * 0.88 +
+[edad=20] * 0.91 +
+[grado_curso=5] * 0.3  +
+[grado_curso=6] * 0.23 +
+[grado_curso=7] * 0.19 +
+[grado_curso=8] * -0 +
+[grado_curso=9] * 0.03 +
+[grado_curso=10] * 0.65 +
+[grado_curso=11] * 0.1  +
+[grado_curso=12] * -0.28 +
+[grado_curso=13] * 0.06 +
+[grado_curso=14] * -0.56 +
+[grado_curso=15] * -0.94 +
+[grado_curso=79] * 0.19 +
+[grado_curso=90] * 0.64 +
+[grado_curso=91] * 1.12 +
+[nivel_pobreza='(28.9-57.9]'] * 0.08 +
+[nivel_pobreza='(57.9-inf)'] * 0.28
+
+
+Time taken to build model: 2054.39 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1189723               73.269  %
+Incorrectly Classified Instances    434050               26.731  %
+Kappa statistic                          0.2882
+Mean absolute error                      0.3626
+Root mean squared error                  0.4245
+Relative absolute error                 82.5315 %
+Root relative squared error             90.5639 %
+Total Number of Instances          1623773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.938    0.691    0.737      0.938    0.825      0.330    0.747     0.835     N
+                 0.309    0.062    0.705      0.309    0.429      0.330    0.747     0.614     S
+Weighted Avg.    0.733    0.486    0.727      0.733    0.696      0.330    0.747     0.763     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+ 1026365   68264 |       a = N
+  365786  163358 |       b = S
+

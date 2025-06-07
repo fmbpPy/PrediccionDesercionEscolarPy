@@ -1,0 +1,807 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.5 -M 0.4 -N 200 -V 0 -S 0 -E 20 -H 10
+Relation:     AnalisisDesercion2024-weka.filters.unsupervised.attribute.NumericToNominal-R31-weka.filters.unsupervised.attribute.Remove-R1,5,12,29,30-weka.filters.unsupervised.attribute.NumericToNominal-R3,4,5,10,11,12,13,14,15,16,17,18,21,24-weka.filters.unsupervised.attribute.MergeManyValues-C6-LGuarani-R2-2-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R3,5,7,15,17,18,23,25,29,31,32,34,36-39-weka.filters.unsupervised.attribute.MergeManyValues-C6-LLengua Indigena-R3-23-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R2,4-weka.filters.unsupervised.attribute.NumericCleaner-min-1.7976931348623157E308-min-default0.0-max1.7976931348623157E308-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R20-decimals-1-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R19-precision0-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R20-precision0-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N(-inf-3]:0 a 3-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3'-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.RenameNominalValues-R20-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R25-precision1-weka.filters.unsupervised.attribute.RenameNominalValues-R3,5,10-18,21,24,26-N0:N,1:S-weka.filters.unsupervised.attribute.RenameNominalValues-R4-N1:M,2:H-weka.filters.unsupervised.attribute.NumericToNominal-R7-8-weka.filters.unsupervised.attribute.RenameNominalValues-R7-N1:Oficial,2:Privada,3:Subvencionada-weka.filters.unsupervised.attribute.RenameNominalValues-R8-N1:Urbana,2:Rural,3:Semiurbana-weka.filters.unsupervised.attribute.NumericToNominal-R9-weka.filters.unsupervised.attribute.RenameNominalValues-R9-N1:Concepcion,2:San Pedro,3:Coordillera,4:Guaira,5:Caaguazu,6:Caazapa,7:Itaipua,8:Misiones,9:Paraguari,10:Alto Parana,11:Central,12:Neembucu,13:Amambay,14:Canindeyu,15:Presidente Hayes,16:Boqueron,17:Alto Paraguay,20:Asuncion,99:Territorio Paraguayo,100:Territorio Extranjero-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceDepartamento-R9-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Gestion-R7-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Zona-R8-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C2-Lfirst-last-weka.filters.unsupervised.instance.RemoveWithValues-S21.0-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L12-13-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L17-18-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L21-26-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L30-40-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L41-last-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L27-29-weka.filters.supervised.instance.SMOTE-C2-K5-P1000.0-S1-weka.filters.unsupervised.attribute.Remove-V-R3,10,2,1,25,26
+Instances:    1623773
+Attributes:   6
+              tiene_sobreedad
+              aprobado_ordinario
+              edad
+              grado_curso
+              nivel_pobreza
+              desertor
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.315562344229848
+    Node 2    1.688986626359884
+    Node 3    0.45925583488509214
+    Node 4    1.86847649334181
+    Node 5    1.0014610367279877
+    Node 6    1.2551620665837828
+    Node 7    2.310626768765016
+    Node 8    0.6985885685298566
+    Node 9    1.2358565480594268
+    Node 10    1.0723772237164642
+    Node 11    1.3247236800466857
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.3155623442319946
+    Node 2    -1.6889866263595879
+    Node 3    -0.45917562802328116
+    Node 4    -1.8684764933445992
+    Node 5    -1.001461036729196
+    Node 6    -1.2551620666026682
+    Node 7    -2.3106267687693967
+    Node 8    -0.6985885685233316
+    Node 9    -1.2358565480595136
+    Node 10    -1.072377223795707
+    Node 11    -1.3247227775557309
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.0002125010751555
+    Attrib tiene_sobreedad=S    -18.37156608080581
+    Attrib aprobado_ordinario=S    -10.967555347949125
+    Attrib edad=0    1.3687652205820149
+    Attrib edad=1    1.6264087418992201
+    Attrib edad=2    0.6543294234770685
+    Attrib edad=3    3.301284649953583
+    Attrib edad=4    1.9923556067955868
+    Attrib edad=5    3.1082897594832914
+    Attrib edad=6    1.9184244552909173
+    Attrib edad=7    3.7530314293904836
+    Attrib edad=8    -2.43524172089779
+    Attrib edad=9    11.75614803806993
+    Attrib edad=10    -0.24568461924576962
+    Attrib edad=11    2.8348150700800234
+    Attrib edad=12    4.357786889042788
+    Attrib edad=13    -7.733157924020245
+    Attrib edad=14    8.258705422278805
+    Attrib edad=15    5.908870153705661
+    Attrib edad=16    -1.6556414775536612
+    Attrib edad=17    -8.902880222008045
+    Attrib edad=18    7.537218021044657
+    Attrib edad=19    -2.9261334779106973
+    Attrib edad=20    3.3929373848612885
+    Attrib grado_curso=5    0.04003357403679834
+    Attrib grado_curso=6    -5.50671644264524
+    Attrib grado_curso=7    5.184736201443104
+    Attrib grado_curso=8    -3.610532072679096
+    Attrib grado_curso=9    -5.051365394174071
+    Attrib grado_curso=10    -0.42230005812318794
+    Attrib grado_curso=11    0.2220613487361884
+    Attrib grado_curso=12    -4.151938479641397
+    Attrib grado_curso=13    -3.6892024229283624
+    Attrib grado_curso=14    30.491100704730144
+    Attrib grado_curso=15    10.203869355400508
+    Attrib grado_curso=25    0.04352544096010254
+    Attrib grado_curso=26    -0.023554160069941668
+    Attrib grado_curso=79    1.7033263074549427
+    Attrib grado_curso=80    1.6143783486567298
+    Attrib grado_curso=81    1.4568454771244304
+    Attrib grado_curso=87    -0.049751440653627105
+    Attrib grado_curso=89    -0.01954297079789873
+    Attrib grado_curso=90    -2.3007818670236255
+    Attrib grado_curso=91    1.7537119366636935
+    Attrib grado_curso=93    0.043139503660038464
+    Attrib grado_curso=96    -0.0084517360913276
+    Attrib grado_curso=97    0.029215546255933908
+    Attrib grado_curso=98    0.024871420078541845
+    Attrib grado_curso=99    0.01820170747865195
+    Attrib grado_curso=100    0.01629948007306492
+    Attrib grado_curso=101    -0.01145608477234751
+    Attrib grado_curso=102    0.03473471264012189
+    Attrib grado_curso=103    -0.03823560612437768
+    Attrib grado_curso=104    0.013496918874845082
+    Attrib grado_curso=105    0.0042022423058055355
+    Attrib grado_curso=106    -0.03070134630144422
+    Attrib grado_curso=107    -0.031233921280996314
+    Attrib grado_curso=108    0.022965031848013476
+    Attrib grado_curso=109    -0.01865950313683671
+    Attrib grado_curso=110    -0.01071606766240317
+    Attrib grado_curso=111    0.034007560707129916
+    Attrib grado_curso=112    -0.012545462273237086
+    Attrib grado_curso=113    -0.017110854470696005
+    Attrib grado_curso=115    0.035809102469858425
+    Attrib grado_curso=125    -0.03781456738246616
+    Attrib grado_curso=155    0.03481492573749405
+    Attrib grado_curso=156    0.017879408938495753
+    Attrib grado_curso=157    0.010820519133494175
+    Attrib nivel_pobreza='(-inf-28.9]'    -6.629271093218126
+    Attrib nivel_pobreza='(28.9-57.9]'    -2.275773472643226
+    Attrib nivel_pobreza='(57.9-inf)'    10.899918030165706
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.2215992043400885
+    Attrib tiene_sobreedad=S    -6.09882280933579
+    Attrib aprobado_ordinario=S    5.884985413412552
+    Attrib edad=0    0.9913461986221738
+    Attrib edad=1    0.22003384458014957
+    Attrib edad=2    -0.8270519663741577
+    Attrib edad=3    -0.1370741238123708
+    Attrib edad=4    1.1305600340804014
+    Attrib edad=5    0.8874463683477174
+    Attrib edad=6    3.1726107619293598
+    Attrib edad=7    1.5085940151893409
+    Attrib edad=8    3.261161384604429
+    Attrib edad=9    3.112009117646018
+    Attrib edad=10    3.0864544033953303
+    Attrib edad=11    4.9393739009521065
+    Attrib edad=12    2.2672523382333436
+    Attrib edad=13    0.460694864272136
+    Attrib edad=14    2.688938171917972
+    Attrib edad=15    -0.45975159511180724
+    Attrib edad=16    -0.05697696665861666
+    Attrib edad=17    -2.9875466496436176
+    Attrib edad=18    -1.1512115670898893
+    Attrib edad=19    -0.10823383930700575
+    Attrib edad=20    0.5418713390894582
+    Attrib grado_curso=5    1.5323302575619637
+    Attrib grado_curso=6    2.197763044048524
+    Attrib grado_curso=7    1.798263471415567
+    Attrib grado_curso=8    2.2693290829009776
+    Attrib grado_curso=9    1.1870928804693919
+    Attrib grado_curso=10    -2.087693359454351
+    Attrib grado_curso=11    1.1340245935253228
+    Attrib grado_curso=12    2.4237142532384763
+    Attrib grado_curso=13    0.7594520126014003
+    Attrib grado_curso=14    1.4349970058869885
+    Attrib grado_curso=15    3.1555337855754346
+    Attrib grado_curso=25    0.0074414011947296355
+    Attrib grado_curso=26    0.036039665374836785
+    Attrib grado_curso=79    0.34066112279851846
+    Attrib grado_curso=80    -0.6592491633369355
+    Attrib grado_curso=81    -0.14799156453145476
+    Attrib grado_curso=87    0.017311705898850865
+    Attrib grado_curso=89    0.04424196761506061
+    Attrib grado_curso=90    0.5483693564549529
+    Attrib grado_curso=91    0.5728161000328494
+    Attrib grado_curso=93    0.02094700859044757
+    Attrib grado_curso=96    3.276437301299451E-4
+    Attrib grado_curso=97    0.04495972032903425
+    Attrib grado_curso=98    0.03797102918239352
+    Attrib grado_curso=99    -0.0014630223895933034
+    Attrib grado_curso=100    6.826585892551126E-4
+    Attrib grado_curso=101    -0.0020866086872872516
+    Attrib grado_curso=102    0.020751402877415392
+    Attrib grado_curso=103    0.024640277530631666
+    Attrib grado_curso=104    -0.020464267500813607
+    Attrib grado_curso=105    0.03297555327313549
+    Attrib grado_curso=106    0.04522035264149074
+    Attrib grado_curso=107    -0.010550464809216994
+    Attrib grado_curso=108    -0.04018428266425378
+    Attrib grado_curso=109    0.014800147264593846
+    Attrib grado_curso=110    -0.041271332696725976
+    Attrib grado_curso=111    -0.011978203509219257
+    Attrib grado_curso=112    -0.015154271667466523
+    Attrib grado_curso=113    -0.03505203940435339
+    Attrib grado_curso=115    -0.009191141426682703
+    Attrib grado_curso=125    -0.04041169152035565
+    Attrib grado_curso=155    0.008026769518793254
+    Attrib grado_curso=156    0.035366957320113204
+    Attrib grado_curso=157    -0.0010468509280036967
+    Attrib nivel_pobreza='(-inf-28.9]'    1.8094800534926962
+    Attrib nivel_pobreza='(28.9-57.9]'    0.5661654775191173
+    Attrib nivel_pobreza='(57.9-inf)'    -1.188829364057515
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -3.6318138572465704
+    Attrib tiene_sobreedad=S    -33.76483201805484
+    Attrib aprobado_ordinario=S    11.359890888192396
+    Attrib edad=0    -2.8189927100553898
+    Attrib edad=1    15.952847146044414
+    Attrib edad=2    2.074059676039427
+    Attrib edad=3    -10.332266844051555
+    Attrib edad=4    3.632918996164476
+    Attrib edad=5    7.494644153521809
+    Attrib edad=6    -5.352538090611231
+    Attrib edad=7    -5.178007250992153
+    Attrib edad=8    -7.763378848772987
+    Attrib edad=9    35.12777705874357
+    Attrib edad=10    36.00220488353136
+    Attrib edad=11    -6.698086932983411
+    Attrib edad=12    -6.102143539366306
+    Attrib edad=13    40.97971256066364
+    Attrib edad=14    -16.09873218757154
+    Attrib edad=15    6.353469184665024
+    Attrib edad=16    11.588912590861439
+    Attrib edad=17    -17.142596522908974
+    Attrib edad=18    -16.426073658996298
+    Attrib edad=19    1.8510998106680077
+    Attrib edad=20    2.1006253392590435
+    Attrib grado_curso=5    -14.183233042208947
+    Attrib grado_curso=6    -16.447977679106646
+    Attrib grado_curso=7    -14.641933187340275
+    Attrib grado_curso=8    21.444846907221013
+    Attrib grado_curso=9    29.12495605843939
+    Attrib grado_curso=10    -21.910885187541194
+    Attrib grado_curso=11    -23.02722039657058
+    Attrib grado_curso=12    14.320248871050657
+    Attrib grado_curso=13    12.355447637049089
+    Attrib grado_curso=14    -2.384866296391992
+    Attrib grado_curso=15    50.77425262033272
+    Attrib grado_curso=25    -0.04351956183256647
+    Attrib grado_curso=26    -0.04067734044897983
+    Attrib grado_curso=79    3.136642857162005
+    Attrib grado_curso=80    3.013201311587277
+    Attrib grado_curso=81    2.9766689879203363
+    Attrib grado_curso=87    0.03945609907754365
+    Attrib grado_curso=89    -0.023519647430913917
+    Attrib grado_curso=90    3.0719485363324943
+    Attrib grado_curso=91    3.3104931312903827
+    Attrib grado_curso=93    -0.048512437897095396
+    Attrib grado_curso=96    7.585269776377718E-4
+    Attrib grado_curso=97    0.023434062823117233
+    Attrib grado_curso=98    -0.004576538902855476
+    Attrib grado_curso=99    -0.031693280390744906
+    Attrib grado_curso=100    0.013378406819689576
+    Attrib grado_curso=101    -0.02955696478514809
+    Attrib grado_curso=102    0.013327317593891913
+    Attrib grado_curso=103    0.0174012060344175
+    Attrib grado_curso=104    0.043005627874443064
+    Attrib grado_curso=105    0.012746199297374763
+    Attrib grado_curso=106    -0.020632853676878796
+    Attrib grado_curso=107    0.037669012647917874
+    Attrib grado_curso=108    0.0010407403164416212
+    Attrib grado_curso=109    0.027067172832853786
+    Attrib grado_curso=110    -0.03716478965864522
+    Attrib grado_curso=111    -0.02145346522308933
+    Attrib grado_curso=112    0.04646534414723989
+    Attrib grado_curso=113    -0.006238479124002182
+    Attrib grado_curso=115    0.04419167243746437
+    Attrib grado_curso=125    -0.039407071029293056
+    Attrib grado_curso=155    -0.0072890765927797335
+    Attrib grado_curso=156    0.021869489656916957
+    Attrib grado_curso=157    0.013403781810954765
+    Attrib nivel_pobreza='(-inf-28.9]'    3.177886543871486
+    Attrib nivel_pobreza='(28.9-57.9]'    6.8007469408388985
+    Attrib nivel_pobreza='(57.9-inf)'    -6.290252591149947
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.4494399999191994
+    Attrib tiene_sobreedad=S    -22.91200299473092
+    Attrib aprobado_ordinario=S    26.2747090528576
+    Attrib edad=0    0.5452145503051806
+    Attrib edad=1    0.20304109874264178
+    Attrib edad=2    -8.031972120907032
+    Attrib edad=3    0.470310714143001
+    Attrib edad=4    0.4944930875537303
+    Attrib edad=5    -0.19597985031640533
+    Attrib edad=6    4.371250688215154
+    Attrib edad=7    21.461022609873567
+    Attrib edad=8    21.34735076844101
+    Attrib edad=9    2.112561688004529
+    Attrib edad=10    -12.156673613031078
+    Attrib edad=11    25.800861528515156
+    Attrib edad=12    18.154137967303665
+    Attrib edad=13    -1.1744641125990247
+    Attrib edad=14    2.3614794466216074
+    Attrib edad=15    -4.0169495812536145
+    Attrib edad=16    -9.719851505194901
+    Attrib edad=17    -4.083229402647041E-4
+    Attrib edad=18    0.8253746803258245
+    Attrib edad=19    1.008620162344516
+    Attrib edad=20    2.3242583628437177
+    Attrib grado_curso=5    -2.9439169601287714
+    Attrib grado_curso=6    21.689334047825717
+    Attrib grado_curso=7    -1.9815915236690032
+    Attrib grado_curso=8    2.747554078378604
+    Attrib grado_curso=9    -10.078520768850304
+    Attrib grado_curso=10    -14.66304828518485
+    Attrib grado_curso=11    14.268572039813469
+    Attrib grado_curso=12    20.070424156829674
+    Attrib grado_curso=13    -0.4623606379935957
+    Attrib grado_curso=14    4.078932018270271
+    Attrib grado_curso=15    2.4254746731643197
+    Attrib grado_curso=25    -6.954126427076296E-4
+    Attrib grado_curso=26    0.0380481647160502
+    Attrib grado_curso=79    2.8172840159967367
+    Attrib grado_curso=80    2.4027914114073137
+    Attrib grado_curso=81    2.557913323610958
+    Attrib grado_curso=87    -0.03994369714173016
+    Attrib grado_curso=89    0.039687699190321765
+    Attrib grado_curso=90    2.7574933654123446
+    Attrib grado_curso=91    3.020318023603497
+    Attrib grado_curso=93    -0.015085155052644864
+    Attrib grado_curso=96    -0.024658954381577416
+    Attrib grado_curso=97    -0.010923016596793192
+    Attrib grado_curso=98    0.04787378857482376
+    Attrib grado_curso=99    0.026236876648494292
+    Attrib grado_curso=100    -0.036706540699621905
+    Attrib grado_curso=101    -0.015720104648682225
+    Attrib grado_curso=102    -0.030576084740762722
+    Attrib grado_curso=103    0.02309880752009516
+    Attrib grado_curso=104    0.031205467976775744
+    Attrib grado_curso=105    0.018250783411749127
+    Attrib grado_curso=106    -0.002443038431608112
+    Attrib grado_curso=107    0.045037725217359756
+    Attrib grado_curso=108    -0.03284126816063747
+    Attrib grado_curso=109    0.0017678088857717503
+    Attrib grado_curso=110    0.01270547114895118
+    Attrib grado_curso=111    -0.03168051041519086
+    Attrib grado_curso=112    0.03460366236242919
+    Attrib grado_curso=113    0.04661743877772111
+    Attrib grado_curso=115    0.029639137270227642
+    Attrib grado_curso=125    0.033243216440043466
+    Attrib grado_curso=155    -0.02218395192806928
+    Attrib grado_curso=156    0.031141719002259538
+    Attrib grado_curso=157    -0.02863069436088671
+    Attrib nivel_pobreza='(-inf-28.9]'    2.2326631270418353
+    Attrib nivel_pobreza='(28.9-57.9]'    3.9591410493324375
+    Attrib nivel_pobreza='(57.9-inf)'    -2.6162785382717444
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -5.784985066937181
+    Attrib tiene_sobreedad=S    -53.265934869657954
+    Attrib aprobado_ordinario=S    89.2959295108682
+    Attrib edad=0    4.5234686410206075
+    Attrib edad=1    -2.829799420178256
+    Attrib edad=2    -50.89251451117327
+    Attrib edad=3    -21.50338847373881
+    Attrib edad=4    6.876602627724615
+    Attrib edad=5    8.590480553581008
+    Attrib edad=6    -23.30446383385074
+    Attrib edad=7    -20.050456080907928
+    Attrib edad=8    54.633513252951495
+    Attrib edad=9    25.867301369403133
+    Attrib edad=10    29.893276007202175
+    Attrib edad=11    85.1508897332977
+    Attrib edad=12    68.57609436497592
+    Attrib edad=13    -14.773818228623107
+    Attrib edad=14    2.8987140810163323
+    Attrib edad=15    -12.485243584332515
+    Attrib edad=16    -18.2952233177821
+    Attrib edad=17    -3.9867182399831074
+    Attrib edad=18    -3.489667204606317
+    Attrib edad=19    -2.6013232159877395
+    Attrib edad=20    -2.923485740433561
+    Attrib grado_curso=5    -48.1689303984758
+    Attrib grado_curso=6    30.919831905503333
+    Attrib grado_curso=7    -14.350599651923009
+    Attrib grado_curso=8    -6.306529133868074
+    Attrib grado_curso=9    4.754972844286272
+    Attrib grado_curso=10    0.0632600153906885
+    Attrib grado_curso=11    34.93006598029279
+    Attrib grado_curso=12    27.73215946411025
+    Attrib grado_curso=13    5.567613964765307
+    Attrib grado_curso=14    8.408789971732363
+    Attrib grado_curso=15    14.729861582582574
+    Attrib grado_curso=25    0.0056678717273142
+    Attrib grado_curso=26    -0.024367655111572874
+    Attrib grado_curso=79    4.3952359135559265
+    Attrib grado_curso=80    4.413334051331245
+    Attrib grado_curso=81    4.388022513723267
+    Attrib grado_curso=87    -0.01534304390124791
+    Attrib grado_curso=89    -1.8733470300865557E-4
+    Attrib grado_curso=90    4.650947680937613
+    Attrib grado_curso=91    4.684839971278758
+    Attrib grado_curso=93    0.04148260738332302
+    Attrib grado_curso=96    -0.0023006977575552937
+    Attrib grado_curso=97    0.0036248870380566137
+    Attrib grado_curso=98    0.03944745342948919
+    Attrib grado_curso=99    -0.02214053634115052
+    Attrib grado_curso=100    -0.018120057302971636
+    Attrib grado_curso=101    -0.038607881814123536
+    Attrib grado_curso=102    0.008940822628040766
+    Attrib grado_curso=103    -0.017822779987562036
+    Attrib grado_curso=104    -0.01462848435916305
+    Attrib grado_curso=105    -0.03637468161555091
+    Attrib grado_curso=106    -0.037144964235109046
+    Attrib grado_curso=107    0.017399600100980378
+    Attrib grado_curso=108    0.010405364874108224
+    Attrib grado_curso=109    -0.04580319007961014
+    Attrib grado_curso=110    -0.03304571621570116
+    Attrib grado_curso=111    -0.024447160848315733
+    Attrib grado_curso=112    -0.03620507765944843
+    Attrib grado_curso=113    -0.03901735477316862
+    Attrib grado_curso=115    0.042373395897819396
+    Attrib grado_curso=125    -0.005841273093211044
+    Attrib grado_curso=155    -0.0011231253162236401
+    Attrib grado_curso=156    -0.020648070057039638
+    Attrib grado_curso=157    0.02114847965186953
+    Attrib nivel_pobreza='(-inf-28.9]'    39.87325087340458
+    Attrib nivel_pobreza='(28.9-57.9]'    30.891789332925914
+    Attrib nivel_pobreza='(57.9-inf)'    -64.93994308354893
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -3.302869370412922
+    Attrib tiene_sobreedad=S    11.209038378728481
+    Attrib aprobado_ordinario=S    37.99992526554001
+    Attrib edad=0    9.386082289643625
+    Attrib edad=1    8.204485297089054
+    Attrib edad=2    8.602034539053586
+    Attrib edad=3    8.733957373087632
+    Attrib edad=4    8.573352291182934
+    Attrib edad=5    9.14414368278004
+    Attrib edad=6    37.48866016141128
+    Attrib edad=7    22.95075252193651
+    Attrib edad=8    -6.885623992746216
+    Attrib edad=9    -10.13484162201053
+    Attrib edad=10    -13.452702795713659
+    Attrib edad=11    -13.321301089219247
+    Attrib edad=12    -23.21597163386961
+    Attrib edad=13    -12.761897530070096
+    Attrib edad=14    -1.7239540072214052
+    Attrib edad=15    5.3721746752782185
+    Attrib edad=16    -0.1312243277061311
+    Attrib edad=17    19.238411716266103
+    Attrib edad=18    -12.680258739831189
+    Attrib edad=19    9.130498493843199
+    Attrib edad=20    9.467980712719019
+    Attrib grado_curso=5    36.47896487343699
+    Attrib grado_curso=6    9.660266637279944
+    Attrib grado_curso=7    -4.492210883844249
+    Attrib grado_curso=8    7.528092361708747
+    Attrib grado_curso=9    -4.613788666816283
+    Attrib grado_curso=10    -6.382057591732312
+    Attrib grado_curso=11    -2.1588694395222907
+    Attrib grado_curso=12    -6.115878718472541
+    Attrib grado_curso=13    -6.896110952864464
+    Attrib grado_curso=14    3.7382459141178783
+    Attrib grado_curso=15    4.89222873838868
+    Attrib grado_curso=25    0.02790418134347443
+    Attrib grado_curso=26    0.03774505088341469
+    Attrib grado_curso=79    2.7948817342094934
+    Attrib grado_curso=80    2.6971585940444154
+    Attrib grado_curso=81    2.7232828616821854
+    Attrib grado_curso=87    0.027205178133765148
+    Attrib grado_curso=89    0.007862389832604323
+    Attrib grado_curso=90    2.7491181228659647
+    Attrib grado_curso=91    2.95667456875064
+    Attrib grado_curso=93    -0.025525020500993967
+    Attrib grado_curso=96    -0.005774238688963228
+    Attrib grado_curso=97    -0.04253320624166978
+    Attrib grado_curso=98    -0.04352539973067451
+    Attrib grado_curso=99    0.02124123052306512
+    Attrib grado_curso=100    -0.04007086054763823
+    Attrib grado_curso=101    -0.02707104382127569
+    Attrib grado_curso=102    0.04099094116678141
+    Attrib grado_curso=103    0.025396644907615173
+    Attrib grado_curso=104    0.03117640632498561
+    Attrib grado_curso=105    0.01172998048417552
+    Attrib grado_curso=106    2.041768506756414E-4
+    Attrib grado_curso=107    -0.04348274129653549
+    Attrib grado_curso=108    0.012451975039295293
+    Attrib grado_curso=109    -0.02421284079116405
+    Attrib grado_curso=110    0.03958384253735858
+    Attrib grado_curso=111    0.007630120764855884
+    Attrib grado_curso=112    0.041386906580472366
+    Attrib grado_curso=113    0.008833558812160358
+    Attrib grado_curso=115    0.0492201760723696
+    Attrib grado_curso=125    -0.010713148182231638
+    Attrib grado_curso=155    -0.03803389667095463
+    Attrib grado_curso=156    -0.004537099538708678
+    Attrib grado_curso=157    -0.007011062961421434
+    Attrib nivel_pobreza='(-inf-28.9]'    -10.944237296931187
+    Attrib nivel_pobreza='(28.9-57.9]'    2.166606593221102
+    Attrib nivel_pobreza='(57.9-inf)'    11.999113162344898
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -2.3801723291479564
+    Attrib tiene_sobreedad=S    -5.9993430366235945
+    Attrib aprobado_ordinario=S    34.41795974443593
+    Attrib edad=0    1.0867535587958383
+    Attrib edad=1    2.553841447407638
+    Attrib edad=2    6.382431051824914
+    Attrib edad=3    0.8207519861010593
+    Attrib edad=4    3.3073976562484
+    Attrib edad=5    -0.45479295738750936
+    Attrib edad=6    -1.057442510919955
+    Attrib edad=7    1.225788070229956
+    Attrib edad=8    -0.06795612406334643
+    Attrib edad=9    -0.6036788045868434
+    Attrib edad=10    18.28723650667804
+    Attrib edad=11    12.444070062075012
+    Attrib edad=12    9.445429879873753
+    Attrib edad=13    -18.07865726716449
+    Attrib edad=14    -9.448112462246696
+    Attrib edad=15    11.831582084147227
+    Attrib edad=16    -0.7694405056550122
+    Attrib edad=17    -17.395383575238437
+    Attrib edad=18    9.6054713509348
+    Attrib edad=19    0.5249409306157768
+    Attrib edad=20    15.466028229665428
+    Attrib grado_curso=5    -9.273186543707272
+    Attrib grado_curso=6    4.240467034462957
+    Attrib grado_curso=7    10.985799817397082
+    Attrib grado_curso=8    5.2556461254935085
+    Attrib grado_curso=9    -6.2239354243845995
+    Attrib grado_curso=10    -14.806533286649314
+    Attrib grado_curso=11    -16.037768590595256
+    Attrib grado_curso=12    10.62304534376471
+    Attrib grado_curso=13    -21.329831272274493
+    Attrib grado_curso=14    0.8491709027515492
+    Attrib grado_curso=15    59.839514643430064
+    Attrib grado_curso=25    -0.04872900745430402
+    Attrib grado_curso=26    0.03316536120652398
+    Attrib grado_curso=79    2.2548739470055064
+    Attrib grado_curso=80    2.0122313320320644
+    Attrib grado_curso=81    2.175456972681847
+    Attrib grado_curso=87    -0.043603441938756565
+    Attrib grado_curso=89    -0.03711518164599762
+    Attrib grado_curso=90    0.6573799657680816
+    Attrib grado_curso=91    2.174942257851915
+    Attrib grado_curso=93    -0.027709986884926464
+    Attrib grado_curso=96    -0.01760970557092323
+    Attrib grado_curso=97    -0.021408347667034033
+    Attrib grado_curso=98    0.02429992173451047
+    Attrib grado_curso=99    0.037572732068885395
+    Attrib grado_curso=100    -0.04138297410052242
+    Attrib grado_curso=101    0.04091761901682041
+    Attrib grado_curso=102    -0.02943447926930315
+    Attrib grado_curso=103    0.044671917114147155
+    Attrib grado_curso=104    -0.011266701788775112
+    Attrib grado_curso=105    -0.014744108845257613
+    Attrib grado_curso=106    0.031716757510135696
+    Attrib grado_curso=107    -0.03103990733461233
+    Attrib grado_curso=108    -0.01561078117132464
+    Attrib grado_curso=109    0.02486768529747345
+    Attrib grado_curso=110    -0.03179942742033172
+    Attrib grado_curso=111    0.02960495296354819
+    Attrib grado_curso=112    -0.01006494791382604
+    Attrib grado_curso=113    -0.04109652270503977
+    Attrib grado_curso=115    -0.04850146644429564
+    Attrib grado_curso=125    -0.004335408449511233
+    Attrib grado_curso=155    -0.020423693268687648
+    Attrib grado_curso=156    0.02704863996183754
+    Attrib grado_curso=157    -0.011603204971656914
+    Attrib nivel_pobreza='(-inf-28.9]'    -18.36570482333882
+    Attrib nivel_pobreza='(28.9-57.9]'    -5.00433366294473
+    Attrib nivel_pobreza='(57.9-inf)'    25.7805447761559
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -3.0836478900017488
+    Attrib tiene_sobreedad=S    -16.002639867388847
+    Attrib aprobado_ordinario=S    17.58616165843411
+    Attrib edad=0    6.124473875245758
+    Attrib edad=1    -8.806585353774826
+    Attrib edad=2    -6.42669092306839
+    Attrib edad=3    -9.02054894912919
+    Attrib edad=4    7.179221219523823
+    Attrib edad=5    9.18013001870305
+    Attrib edad=6    -9.80623473229152
+    Attrib edad=7    -9.400256934000165
+    Attrib edad=8    23.07380471169361
+    Attrib edad=9    26.246421497757456
+    Attrib edad=10    -4.838394765162352
+    Attrib edad=11    -9.525743785129666
+    Attrib edad=12    -8.705506544218986
+    Attrib edad=13    0.8477046433577907
+    Attrib edad=14    -0.971938057328165
+    Attrib edad=15    20.73618146060665
+    Attrib edad=16    -2.371590505483114
+    Attrib edad=17    29.310754901655848
+    Attrib edad=18    2.1324727497490437
+    Attrib edad=19    2.047645715945567
+    Attrib edad=20    2.5897833791607425
+    Attrib grado_curso=5    -7.0760679202042525
+    Attrib grado_curso=6    -7.553661177471262
+    Attrib grado_curso=7    28.970784263574796
+    Attrib grado_curso=8    -7.776348222913006
+    Attrib grado_curso=9    -6.011187348246187
+    Attrib grado_curso=10    -6.854193123741799
+    Attrib grado_curso=11    0.17751475119501472
+    Attrib grado_curso=12    5.947412883676231
+    Attrib grado_curso=13    -3.882209068116338
+    Attrib grado_curso=14    0.9653700859867194
+    Attrib grado_curso=15    34.52218309238156
+    Attrib grado_curso=25    0.020015774565718042
+    Attrib grado_curso=26    -0.04159217636656384
+    Attrib grado_curso=79    2.783727116998784
+    Attrib grado_curso=80    2.599180588603814
+    Attrib grado_curso=81    2.5827519153499816
+    Attrib grado_curso=87    -0.03733313905463999
+    Attrib grado_curso=89    -0.019746104743067816
+    Attrib grado_curso=90    2.5792300107564867
+    Attrib grado_curso=91    1.7911775501401301
+    Attrib grado_curso=93    0.031240470313270083
+    Attrib grado_curso=96    -0.03122766003588159
+    Attrib grado_curso=97    -0.016954463033140688
+    Attrib grado_curso=98    0.005034223145325846
+    Attrib grado_curso=99    -0.028567536488964797
+    Attrib grado_curso=100    0.009232788962379147
+    Attrib grado_curso=101    0.043943059025703515
+    Attrib grado_curso=102    -0.042983449723724046
+    Attrib grado_curso=103    -0.046551960155543776
+    Attrib grado_curso=104    0.031038664125275783
+    Attrib grado_curso=105    0.0026365084131336064
+    Attrib grado_curso=106    -0.0026373108574198473
+    Attrib grado_curso=107    0.018641255294214204
+    Attrib grado_curso=108    0.02953501458873213
+    Attrib grado_curso=109    -0.040219516919264224
+    Attrib grado_curso=110    0.025908005765982234
+    Attrib grado_curso=111    0.04438480452805853
+    Attrib grado_curso=112    0.017848823312787726
+    Attrib grado_curso=113    0.0327916846916852
+    Attrib grado_curso=115    0.021644518991989825
+    Attrib grado_curso=125    -0.012172246895202965
+    Attrib grado_curso=155    0.045214908136575416
+    Attrib grado_curso=156    -0.013537288651722448
+    Attrib grado_curso=157    0.02217043974883255
+    Attrib nivel_pobreza='(-inf-28.9]'    7.816562362025256
+    Attrib nivel_pobreza='(28.9-57.9]'    2.507065215891814
+    Attrib nivel_pobreza='(57.9-inf)'    -7.275325680119671
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -2.870907895248419
+    Attrib tiene_sobreedad=S    -24.54165831650705
+    Attrib aprobado_ordinario=S    30.124579807114372
+    Attrib edad=0    5.637555005198539
+    Attrib edad=1    1.262142430173876
+    Attrib edad=2    9.213706000824079
+    Attrib edad=3    0.5828519184952125
+    Attrib edad=4    5.201094241138162
+    Attrib edad=5    1.5643702116786251
+    Attrib edad=6    -2.173339827467408
+    Attrib edad=7    -2.3388941906243357
+    Attrib edad=8    -1.5288933624531242
+    Attrib edad=9    -3.6782163535254044
+    Attrib edad=10    9.529965164029266
+    Attrib edad=11    21.243187777065447
+    Attrib edad=12    25.218421845845715
+    Attrib edad=13    -1.445011079795302
+    Attrib edad=14    -8.65877184761216
+    Attrib edad=15    -4.193701822511589
+    Attrib edad=16    0.43237053665853387
+    Attrib edad=17    -1.0768472651369763
+    Attrib edad=18    -1.130108086068148
+    Attrib edad=19    -0.19422577064889765
+    Attrib edad=20    0.9726854854718194
+    Attrib grado_curso=5    -5.713523278109824
+    Attrib grado_curso=6    -5.659684602273863
+    Attrib grado_curso=7    -8.488501048379636
+    Attrib grado_curso=8    16.846646728316568
+    Attrib grado_curso=9    14.10051768806282
+    Attrib grado_curso=10    -13.03553545630882
+    Attrib grado_curso=11    21.285704665709225
+    Attrib grado_curso=12    12.939672537870369
+    Attrib grado_curso=13    -5.7081146750496545
+    Attrib grado_curso=14    1.4539820665417968
+    Attrib grado_curso=15    4.333191442909906
+    Attrib grado_curso=25    0.009319662484887803
+    Attrib grado_curso=26    -0.036432152490220464
+    Attrib grado_curso=79    1.7543148319024384
+    Attrib grado_curso=80    1.4042371537633977
+    Attrib grado_curso=81    1.5163067404249824
+    Attrib grado_curso=87    0.0025360901601023528
+    Attrib grado_curso=89    0.013585068589842125
+    Attrib grado_curso=90    1.7150045885422691
+    Attrib grado_curso=91    1.5111426860677528
+    Attrib grado_curso=93    0.0307333738762606
+    Attrib grado_curso=96    -0.035009081772340904
+    Attrib grado_curso=97    0.007420170927953253
+    Attrib grado_curso=98    -0.04698293761729079
+    Attrib grado_curso=99    0.020392511341481928
+    Attrib grado_curso=100    0.04327038643433771
+    Attrib grado_curso=101    -0.02002872215931516
+    Attrib grado_curso=102    0.04798716644220885
+    Attrib grado_curso=103    -0.02718731430644531
+    Attrib grado_curso=104    -0.044043161996506736
+    Attrib grado_curso=105    0.045127933603668985
+    Attrib grado_curso=106    -0.027360005349899054
+    Attrib grado_curso=107    -0.0021307237628805722
+    Attrib grado_curso=108    -0.008104542532961043
+    Attrib grado_curso=109    -0.027842952387267306
+    Attrib grado_curso=110    -0.019039931467336603
+    Attrib grado_curso=111    -0.00800829186007037
+    Attrib grado_curso=112    -0.02434305847879691
+    Attrib grado_curso=113    -0.0018104845133220665
+    Attrib grado_curso=115    0.026264880217301653
+    Attrib grado_curso=125    -0.047500055889300244
+    Attrib grado_curso=155    0.006063758387710415
+    Attrib grado_curso=156    0.014007516581677898
+    Attrib grado_curso=157    -0.005722348298195831
+    Attrib nivel_pobreza='(-inf-28.9]'    -6.001871163515039
+    Attrib nivel_pobreza='(28.9-57.9]'    0.8994490157099867
+    Attrib nivel_pobreza='(57.9-inf)'    7.881622264611844
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -1.3542081649088016
+    Attrib tiene_sobreedad=S    -5.746733015507477
+    Attrib aprobado_ordinario=S    7.03978494955444
+    Attrib edad=0    1.0589262075029375
+    Attrib edad=1    0.7635053776655644
+    Attrib edad=2    0.006615014619602721
+    Attrib edad=3    0.5481235397505403
+    Attrib edad=4    1.2238862059922926
+    Attrib edad=5    0.9000062444354633
+    Attrib edad=6    3.3489916130231556
+    Attrib edad=7    3.0547362988825504
+    Attrib edad=8    2.093422140715111
+    Attrib edad=9    3.047148838950315
+    Attrib edad=10    2.9894712493266105
+    Attrib edad=11    5.116261663971349
+    Attrib edad=12    1.250548114866994
+    Attrib edad=13    1.300109819718109
+    Attrib edad=14    1.3927947599894765
+    Attrib edad=15    -1.3643260365603438
+    Attrib edad=16    -1.8533644361278163
+    Attrib edad=17    -0.7565367447680167
+    Attrib edad=18    -0.3126305896105734
+    Attrib edad=19    0.33414281147780284
+    Attrib edad=20    0.5341516946514997
+    Attrib grado_curso=5    2.21846605322954
+    Attrib grado_curso=6    1.316560249300591
+    Attrib grado_curso=7    1.2479006237161439
+    Attrib grado_curso=8    1.7982044738288612
+    Attrib grado_curso=9    2.686553697731233
+    Attrib grado_curso=10    -1.4054298754841772
+    Attrib grado_curso=11    1.4789239779435792
+    Attrib grado_curso=12    1.6855173224893898
+    Attrib grado_curso=13    0.7707775389224599
+    Attrib grado_curso=14    2.1614081804492544
+    Attrib grado_curso=15    1.2952812358610652
+    Attrib grado_curso=25    0.046797265627980936
+    Attrib grado_curso=26    0.02493697719079563
+    Attrib grado_curso=79    0.8056889376904783
+    Attrib grado_curso=80    0.5843625407979887
+    Attrib grado_curso=81    0.21423754750571017
+    Attrib grado_curso=87    0.0042031357214536436
+    Attrib grado_curso=89    0.02715451374805304
+    Attrib grado_curso=90    0.685479547867775
+    Attrib grado_curso=91    0.770378511695265
+    Attrib grado_curso=93    0.02441629085568578
+    Attrib grado_curso=96    0.036511363559252955
+    Attrib grado_curso=97    0.03597407613156359
+    Attrib grado_curso=98    -0.01492174919016083
+    Attrib grado_curso=99    -0.044295098589963694
+    Attrib grado_curso=100    -0.015490466927078818
+    Attrib grado_curso=101    -0.0428668907790844
+    Attrib grado_curso=102    0.006516840842528938
+    Attrib grado_curso=103    0.0019416668223162237
+    Attrib grado_curso=104    8.376061236892718E-4
+    Attrib grado_curso=105    -0.010909549335272203
+    Attrib grado_curso=106    -0.02152928916277004
+    Attrib grado_curso=107    -0.005558249331556783
+    Attrib grado_curso=108    0.033052720495895194
+    Attrib grado_curso=109    0.0025317908050135896
+    Attrib grado_curso=110    -0.019226748742413813
+    Attrib grado_curso=111    0.0029278417457943573
+    Attrib grado_curso=112    -0.04090866042639855
+    Attrib grado_curso=113    -0.002463730702527603
+    Attrib grado_curso=115    0.037502888393057585
+    Attrib grado_curso=125    0.042277684550829864
+    Attrib grado_curso=155    -0.040277345247206955
+    Attrib grado_curso=156    0.026721084642944856
+    Attrib grado_curso=157    -0.04411759367728451
+    Attrib nivel_pobreza='(-inf-28.9]'    1.9575204314942845
+    Attrib nivel_pobreza='(28.9-57.9]'    -0.2691229666090748
+    Attrib nivel_pobreza='(57.9-inf)'    -0.4025408496886707
+Class N
+    Input
+    Node 0
+Class S
+    Input
+    Node 1
+
+
+Time taken to build model: 2202.37 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1198079               73.7837 %
+Incorrectly Classified Instances    425694               26.2163 %
+Kappa statistic                          0.3541
+Mean absolute error                      0.3359
+Root mean squared error                  0.4265
+Relative absolute error                 76.4484 %
+Root relative squared error             90.9887 %
+Total Number of Instances          1623773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,877    0,550    0,767      0,877    0,818      0,364    0,748     0,836     N
+                 0,450    0,123    0,639      0,450    0,528      0,364    0,748     0,610     S
+Weighted Avg.    0,738    0,411    0,725      0,738    0,724      0,364    0,748     0,763     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 959852 134777 |      a = N
+ 290917 238227 |      b = S
+
