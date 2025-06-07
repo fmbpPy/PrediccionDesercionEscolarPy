@@ -1,0 +1,232 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 200 -H 50 -W 0.0
+Relation:     AnalisisDesercion2024-weka.filters.unsupervised.attribute.NumericToNominal-R31-weka.filters.unsupervised.attribute.Remove-R1,5,12,29,30-weka.filters.unsupervised.attribute.NumericToNominal-R3,4,5,10,11,12,13,14,15,16,17,18,21,24-weka.filters.unsupervised.attribute.MergeManyValues-C6-LGuarani-R2-2-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R3,5,7,15,17,18,23,25,29,31,32,34,36-39-weka.filters.unsupervised.attribute.MergeManyValues-C6-LLengua Indigena-R3-23-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R2,4-weka.filters.unsupervised.attribute.NumericCleaner-min-1.7976931348623157E308-min-default0.0-max1.7976931348623157E308-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R20-decimals-1-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R19-precision0-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R20-precision0-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N(-inf-3]:0 a 3-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3'-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.RenameNominalValues-R20-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R25-precision1-weka.filters.unsupervised.attribute.RenameNominalValues-R3,5,10-18,21,24,26-N0:N,1:S-weka.filters.unsupervised.attribute.RenameNominalValues-R4-N1:M,2:H-weka.filters.unsupervised.attribute.NumericToNominal-R7-8-weka.filters.unsupervised.attribute.RenameNominalValues-R7-N1:Oficial,2:Privada,3:Subvencionada-weka.filters.unsupervised.attribute.RenameNominalValues-R8-N1:Urbana,2:Rural,3:Semiurbana-weka.filters.unsupervised.attribute.NumericToNominal-R9-weka.filters.unsupervised.attribute.RenameNominalValues-R9-N1:Concepcion,2:San Pedro,3:Coordillera,4:Guaira,5:Caaguazu,6:Caazapa,7:Itaipua,8:Misiones,9:Paraguari,10:Alto Parana,11:Central,12:Neembucu,13:Amambay,14:Canindeyu,15:Presidente Hayes,16:Boqueron,17:Alto Paraguay,20:Asuncion,99:Territorio Paraguayo,100:Territorio Extranjero-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceDepartamento-R9-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Gestion-R7-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Zona-R8-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C2-Lfirst-last-weka.filters.unsupervised.instance.RemoveWithValues-S21.0-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L12-13-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L17-18-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L21-26-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L30-40-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L41-last-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L27-29-weka.filters.supervised.instance.SMOTE-C2-K5-P2000.0-S1
+Instances:    2104813
+Attributes:   26
+              grado_curso
+              edad
+              tiene_sobreedad
+              sexo
+              es_indigena
+              idioma
+              Tipo_Gestion
+              Tipo_Zona
+              Departamento
+              aprobado_ordinario
+              aprobado_complementario
+              aprobado_regularizacion
+              repitente
+              con_enfermedad
+              con_discapacidad_transtorno
+              vive_con_padre
+              vive_con_madre
+              vive_con_otro
+              cuantas_personas_vive
+              cuantas_piezas_dormir
+              recibe_beneficio
+              como_se_traslada_escuela
+              cuanto_tiempo_tarda
+              recibe_alimentacion
+              nivel_pobreza
+              desertor
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class N :
+-0.56 + 
+[grado_curso=6] * -0.08 +
+[grado_curso=7] * -0.03 +
+[grado_curso=8] * 0.1  +
+[grado_curso=10] * -0.68 +
+[grado_curso=11] * -0.16 +
+[grado_curso=12] * 0.09 +
+[grado_curso=13] * -0.43 +
+[grado_curso=14] * 0.74 +
+[grado_curso=15] * 1.05 +
+[grado_curso=81] * 0.12 +
+[grado_curso=90] * -0.81 +
+[grado_curso=91] * -1.17 +
+[edad=0] * -0.48 +
+[edad=1] * -0.75 +
+[edad=2] * -0.5 +
+[edad=3] * -0.22 +
+[edad=4] * -0.36 +
+[edad=5] * -0.39 +
+[edad=6] * 0.13 +
+[edad=9] * 0.09 +
+[edad=10] * 0.24 +
+[edad=11] * 0.15 +
+[edad=12] * 0.18 +
+[edad=14] * -0.19 +
+[edad=15] * -0.13 +
+[edad=16] * -0.24 +
+[edad=17] * -0.65 +
+[edad=18] * -0.62 +
+[edad=19] * -0.43 +
+[edad=20] * -0.42 +
+[tiene_sobreedad=S] * -0.51 +
+[sexo=H] * -0.04 +
+[es_indigena=S] * -0.42 +
+[idioma=Castellano] * 0.38 +
+[idioma=Guarani] * 0.2  +
+[idioma=Otros-Extranjero] * -0.05 +
+[Tipo_Gestion=Subvencionada] * 0.12 +
+[Tipo_Zona=Rural] * -0.02 +
+[Departamento=Concepcion] * -0.08 +
+[Departamento=San Pedro] * -0.11 +
+[Departamento=Coordillera] * 0.15 +
+[Departamento=Guaira] * 0.27 +
+[Departamento=Caazapa] * 0.22 +
+[Departamento=Itaipua] * -0.05 +
+[Departamento=Misiones] * 0.61 +
+[Departamento=Paraguari] * 0.55 +
+[Departamento=Alto Parana] * -0.25 +
+[Departamento=Central] * -0.17 +
+[Departamento=Neembucu] * 0.81 +
+[Departamento=Amambay] * -0.22 +
+[Departamento=Presidente Hayes] * 0.31 +
+[Departamento=Boqueron] * 0.24 +
+[Departamento=Alto Paraguay] * 0.19 +
+[Departamento=Asuncion] * 0.29 +
+[Departamento=Territorio Paraguayo] * 0.88 +
+[aprobado_ordinario=S] * 1.13 +
+[aprobado_complementario=S] * 1.28 +
+[aprobado_regularizacion=S] * 1.23 +
+[repitente=S] * -0.15 +
+[con_enfermedad=S] * -0.08 +
+[con_discapacidad_transtorno=S] * 0.91 +
+[vive_con_padre=S] * 0.24 +
+[vive_con_madre=S] * 0.39 +
+[vive_con_otro=S] * 0.36 +
+[cuantas_personas_vive='3 a 7'] * 0.02 +
+[cuantas_personas_vive='>7'] * -0.17 +
+[cuantas_piezas_dormir='0 a 3'] * -0.55 +
+[cuantas_piezas_dormir='>7'] * 0.76 +
+[como_se_traslada_escuela=Caminando] * -0.24 +
+[como_se_traslada_escuela=SIN DATO] * 0.04 +
+[como_se_traslada_escuela=En moto] * -0.08 +
+[como_se_traslada_escuela=En vehículo particular] * -0.05 +
+[como_se_traslada_escuela=En bicicleta] * 1    +
+[como_se_traslada_escuela=En transporte escolar] * 0.45 +
+[como_se_traslada_escuela=Otro] * 0.49 +
+[cuanto_tiempo_tarda=Menos de 30 minutos] * -0.05 +
+[cuanto_tiempo_tarda=Más de una hora] * 0.5  +
+[recibe_alimentacion=S] * 0.15 +
+[nivel_pobreza='(-inf-28.9]'] * -0.03 +
+[nivel_pobreza='(57.9-inf)'] * -0.13
+
+Class S :
+0.56 + 
+[grado_curso=6] * 0.08 +
+[grado_curso=7] * 0.03 +
+[grado_curso=8] * -0.1 +
+[grado_curso=10] * 0.68 +
+[grado_curso=11] * 0.16 +
+[grado_curso=12] * -0.09 +
+[grado_curso=13] * 0.43 +
+[grado_curso=14] * -0.74 +
+[grado_curso=15] * -1.05 +
+[grado_curso=81] * -0.12 +
+[grado_curso=90] * 0.81 +
+[grado_curso=91] * 1.17 +
+[edad=0] * 0.48 +
+[edad=1] * 0.75 +
+[edad=2] * 0.5  +
+[edad=3] * 0.22 +
+[edad=4] * 0.36 +
+[edad=5] * 0.39 +
+[edad=6] * -0.13 +
+[edad=9] * -0.09 +
+[edad=10] * -0.24 +
+[edad=11] * -0.15 +
+[edad=12] * -0.18 +
+[edad=14] * 0.19 +
+[edad=15] * 0.13 +
+[edad=16] * 0.24 +
+[edad=17] * 0.65 +
+[edad=18] * 0.62 +
+[edad=19] * 0.43 +
+[edad=20] * 0.42 +
+[tiene_sobreedad=S] * 0.51 +
+[sexo=H] * 0.04 +
+[es_indigena=S] * 0.42 +
+[idioma=Castellano] * -0.38 +
+[idioma=Guarani] * -0.2 +
+[idioma=Otros-Extranjero] * 0.05 +
+[Tipo_Gestion=Subvencionada] * -0.12 +
+[Tipo_Zona=Rural] * 0.02 +
+[Departamento=Concepcion] * 0.08 +
+[Departamento=San Pedro] * 0.11 +
+[Departamento=Coordillera] * -0.15 +
+[Departamento=Guaira] * -0.27 +
+[Departamento=Caazapa] * -0.22 +
+[Departamento=Itaipua] * 0.05 +
+[Departamento=Misiones] * -0.61 +
+[Departamento=Paraguari] * -0.55 +
+[Departamento=Alto Parana] * 0.25 +
+[Departamento=Central] * 0.17 +
+[Departamento=Neembucu] * -0.81 +
+[Departamento=Amambay] * 0.22 +
+[Departamento=Presidente Hayes] * -0.31 +
+[Departamento=Boqueron] * -0.24 +
+[Departamento=Alto Paraguay] * -0.19 +
+[Departamento=Asuncion] * -0.29 +
+[Departamento=Territorio Paraguayo] * -0.88 +
+[aprobado_ordinario=S] * -1.13 +
+[aprobado_complementario=S] * -1.28 +
+[aprobado_regularizacion=S] * -1.23 +
+[repitente=S] * 0.15 +
+[con_enfermedad=S] * 0.08 +
+[con_discapacidad_transtorno=S] * -0.91 +
+[vive_con_padre=S] * -0.24 +
+[vive_con_madre=S] * -0.39 +
+[vive_con_otro=S] * -0.36 +
+[cuantas_personas_vive='3 a 7'] * -0.02 +
+[cuantas_personas_vive='>7'] * 0.17 +
+[cuantas_piezas_dormir='0 a 3'] * 0.55 +
+[cuantas_piezas_dormir='>7'] * -0.76 +
+[como_se_traslada_escuela=Caminando] * 0.24 +
+[como_se_traslada_escuela=SIN DATO] * -0.04 +
+[como_se_traslada_escuela=En moto] * 0.08 +
+[como_se_traslada_escuela=En vehículo particular] * 0.05 +
+[como_se_traslada_escuela=En bicicleta] * -1 +
+[como_se_traslada_escuela=En transporte escolar] * -0.45 +
+[como_se_traslada_escuela=Otro] * -0.49 +
+[cuanto_tiempo_tarda=Menos de 30 minutos] * 0.05 +
+[cuanto_tiempo_tarda=Más de una hora] * -0.5 +
+[recibe_alimentacion=S] * -0.15 +
+[nivel_pobreza='(-inf-28.9]'] * 0.03 +
+[nivel_pobreza='(57.9-inf)'] * 0.13
+
+
+Time taken to build model: 5760.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1573149               74.7406 %
+Incorrectly Classified Instances    531664               25.2594 %
+Kappa statistic                          0.493 
+Mean absolute error                      0.3416
+Root mean squared error                  0.4109
+Relative absolute error                 68.4384 %
+Root relative squared error             82.2468 %
+Total Number of Instances          2104813     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,781    0,289    0,745      0,781    0,763      0,494    0,828     0,832     N
+                 0,711    0,219    0,750      0,711    0,730      0,494    0,828     0,821     S
+Weighted Avg.    0,747    0,255    0,748      0,747    0,747      0,494    0,828     0,827     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 855191 239438 |      a = N
+ 292226 717958 |      b = S
+
