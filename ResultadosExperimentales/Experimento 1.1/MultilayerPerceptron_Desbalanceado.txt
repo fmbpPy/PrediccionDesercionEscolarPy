@@ -1,0 +1,1008 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.5 -M 0.4 -N 200 -V 0 -S 0 -E 20 -H 7 -num-decimal-places 1
+Relation:     AnalisisDesercion2024-weka.filters.unsupervised.attribute.NumericToNominal-R31-weka.filters.unsupervised.attribute.Remove-R1,5,12,29,30-weka.filters.unsupervised.attribute.NumericToNominal-R3,4,5,10,11,12,13,14,15,16,17,18,21,24-weka.filters.unsupervised.attribute.MergeManyValues-C6-LGuarani-R2-2-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R3,5,7,15,17,18,23,25,29,31,32,34,36-39-weka.filters.unsupervised.attribute.MergeManyValues-C6-LLengua Indigena-R3-23-weka.filters.unsupervised.attribute.MergeManyValues-C6-LOtros-Extranjero-R2,4-weka.filters.unsupervised.attribute.NumericCleaner-min-1.7976931348623157E308-min-default0.0-max1.7976931348623157E308-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R19-decimals-1-weka.filters.unsupervised.attribute.NumericCleaner-min0.0-min-default0.0-max10.0-max-default10.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R20-decimals-1-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R19-precision0-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R20-precision0-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N(-inf-3]:0 a 3-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3'-weka.filters.unsupervised.attribute.RenameNominalValues-R19-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.RenameNominalValues-R20-N'(-inf-3]':'0 a 3','(3-7]':'3 a 7','(7-inf)':'>7'-weka.filters.unsupervised.attribute.Discretize-B3-M-1.0-R25-precision1-weka.filters.unsupervised.attribute.RenameNominalValues-R3,5,10-18,21,24,26-N0:N,1:S-weka.filters.unsupervised.attribute.RenameNominalValues-R4-N1:M,2:H-weka.filters.unsupervised.attribute.NumericToNominal-R7-8-weka.filters.unsupervised.attribute.RenameNominalValues-R7-N1:Oficial,2:Privada,3:Subvencionada-weka.filters.unsupervised.attribute.RenameNominalValues-R8-N1:Urbana,2:Rural,3:Semiurbana-weka.filters.unsupervised.attribute.NumericToNominal-R9-weka.filters.unsupervised.attribute.RenameNominalValues-R9-N1:Concepcion,2:San Pedro,3:Coordillera,4:Guaira,5:Caaguazu,6:Caazapa,7:Itaipua,8:Misiones,9:Paraguari,10:Alto Parana,11:Central,12:Neembucu,13:Amambay,14:Canindeyu,15:Presidente Hayes,16:Boqueron,17:Alto Paraguay,20:Asuncion,99:Territorio Paraguayo,100:Territorio Extranjero-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceDepartamento-R9-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Gestion-R7-weka.filters.unsupervised.attribute.RenameAttribute-find([\s\S]+)-replaceTipo_Zona-R8-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C2-Lfirst-last-weka.filters.unsupervised.instance.RemoveWithValues-S21.0-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L12-13-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L17-18-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L21-26-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L30-40-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L41-last-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C1-L27-29
+Instances:    1142733
+Attributes:   26
+              grado_curso
+              edad
+              tiene_sobreedad
+              sexo
+              es_indigena
+              idioma
+              Tipo_Gestion
+              Tipo_Zona
+              Departamento
+              aprobado_ordinario
+              aprobado_complementario
+              aprobado_regularizacion
+              repitente
+              con_enfermedad
+              con_discapacidad_transtorno
+              vive_con_padre
+              vive_con_madre
+              vive_con_otro
+              cuantas_personas_vive
+              cuantas_piezas_dormir
+              recibe_beneficio
+              como_se_traslada_escuela
+              cuanto_tiempo_tarda
+              recibe_alimentacion
+              nivel_pobreza
+              desertor
+Test mode:    2-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.39240576195212007
+    Node 2    0.552857369995074
+    Node 3    1.0145438843688028
+    Node 4    0.9096593613131752
+    Node 5    0.3682628508400372
+    Node 6    1.1420609290810624
+    Node 7    0.2962451671523108
+    Node 8    0.6345977019808331
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3924057619521195
+    Node 2    -0.5528573699950746
+    Node 3    -1.014543884368802
+    Node 4    -0.909659361313174
+    Node 5    -0.36826285084003735
+    Node 6    -1.1420609290810624
+    Node 7    -0.29624516715231103
+    Node 8    -0.6345977019808332
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.49447788089427164
+    Attrib grado_curso=5    -1.311294039872679
+    Attrib grado_curso=6    16.82981923963262
+    Attrib grado_curso=7    11.33519410396976
+    Attrib grado_curso=8    7.52244825945543
+    Attrib grado_curso=9    6.325246007692874
+    Attrib grado_curso=10    -10.178111432416893
+    Attrib grado_curso=11    0.6574776963722397
+    Attrib grado_curso=12    4.281023449924211
+    Attrib grado_curso=13    3.0298800060175073
+    Attrib grado_curso=14    -13.073748282571275
+    Attrib grado_curso=15    -2.6943054567351457
+    Attrib grado_curso=25    0.04651443582142149
+    Attrib grado_curso=26    -0.012329604311347817
+    Attrib grado_curso=79    -7.382489381290947
+    Attrib grado_curso=80    3.67232302136843
+    Attrib grado_curso=81    -3.790113104632079
+    Attrib grado_curso=87    0.04043480182763268
+    Attrib grado_curso=89    -0.011332880610444254
+    Attrib grado_curso=90    -1.2967885853707066
+    Attrib grado_curso=91    -6.652430994874635
+    Attrib grado_curso=93    0.03560709518041355
+    Attrib grado_curso=96    0.024638501010242647
+    Attrib grado_curso=97    0.030820368706952747
+    Attrib grado_curso=98    0.0047652559833886304
+    Attrib grado_curso=99    0.03552928486857791
+    Attrib grado_curso=100    -0.03255177738848945
+    Attrib grado_curso=101    -0.04820086403543692
+    Attrib grado_curso=102    -0.006710139736442203
+    Attrib grado_curso=103    -0.0037263103144445572
+    Attrib grado_curso=104    0.009792991045933161
+    Attrib grado_curso=105    -0.018887707217081662
+    Attrib grado_curso=106    -0.02951610786054898
+    Attrib grado_curso=107    -0.01048443129796136
+    Attrib grado_curso=108    0.018097865928584603
+    Attrib grado_curso=109    0.015012734949871515
+    Attrib grado_curso=110    -0.04029971630470083
+    Attrib grado_curso=111    0.018770028823384674
+    Attrib grado_curso=112    -0.010168178361332617
+    Attrib grado_curso=113    -0.009060276259937938
+    Attrib grado_curso=115    -0.0490530393681024
+    Attrib grado_curso=125    0.01106922773826461
+    Attrib grado_curso=155    0.03271980909115055
+    Attrib grado_curso=156    -0.00716629680696871
+    Attrib grado_curso=157    0.033318918819968416
+    Attrib edad=0    -1.5697308585473817
+    Attrib edad=1    -5.565426756729311
+    Attrib edad=2    -13.797927471840794
+    Attrib edad=3    -2.598755215066003
+    Attrib edad=4    0.560151248003065
+    Attrib edad=5    -1.5854100903308628
+    Attrib edad=6    10.463057950247512
+    Attrib edad=7    20.478383745198034
+    Attrib edad=8    21.37359353208328
+    Attrib edad=9    15.647628218300543
+    Attrib edad=10    18.80773375010096
+    Attrib edad=11    13.874968784317655
+    Attrib edad=12    8.04567427066249
+    Attrib edad=13    11.064803872575954
+    Attrib edad=14    -4.381939476552942
+    Attrib edad=15    -20.09958708431594
+    Attrib edad=16    -0.9617973177765728
+    Attrib edad=17    -23.30519738852885
+    Attrib edad=18    -19.348499918445082
+    Attrib edad=19    -13.271028737189447
+    Attrib edad=20    -3.929585794198309
+    Attrib tiene_sobreedad=S    -4.89018666691766
+    Attrib sexo=H    3.519344532322778
+    Attrib es_indigena=S    -7.98059078761538
+    Attrib idioma=Castellano    8.44484418663233
+    Attrib idioma=Guarani    1.2815842982306451
+    Attrib idioma=Lengua Indigena    -4.436171057603184
+    Attrib idioma=Otros-Extranjero    -4.159842205007078
+    Attrib Tipo_Gestion=Oficial    5.6118461855294735
+    Attrib Tipo_Gestion=Privada    -5.508320480394125
+    Attrib Tipo_Gestion=Subvencionada    0.4015685145192696
+    Attrib Tipo_Zona=Rural    -0.29966332111897487
+    Attrib Departamento=Concepcion    -7.426594494484895
+    Attrib Departamento=San Pedro    1.5008692012510247
+    Attrib Departamento=Coordillera    -1.2877240337580491
+    Attrib Departamento=Guaira    5.062182455907255
+    Attrib Departamento=Caaguazu    -0.27995402374908857
+    Attrib Departamento=Caazapa    4.3935185184283
+    Attrib Departamento=Itaipua    -4.929230156719977
+    Attrib Departamento=Misiones    -3.1678623123462066
+    Attrib Departamento=Paraguari    1.3368924438972556
+    Attrib Departamento=Alto Parana    -1.3627598491879835
+    Attrib Departamento=Central    6.546778919249823
+    Attrib Departamento=Neembucu    1.7284091658829988
+    Attrib Departamento=Amambay    -11.211736612704268
+    Attrib Departamento=Canindeyu    -12.445206912175797
+    Attrib Departamento=Presidente Hayes    20.755634783913973
+    Attrib Departamento=Boqueron    8.220229712367123
+    Attrib Departamento=Alto Paraguay    -7.446544716921613
+    Attrib Departamento=Asuncion    8.305141140440188
+    Attrib Departamento=Territorio Paraguayo    0.5999850267846718
+    Attrib Departamento=Territorio Extranjero    0.02942009781927961
+    Attrib aprobado_ordinario=S    22.97095967136941
+    Attrib aprobado_complementario=S    17.439387411419688
+    Attrib aprobado_regularizacion=S    4.598249657961269
+    Attrib repitente=S    13.310367925345277
+    Attrib con_enfermedad=S    1.9807868096193557
+    Attrib con_discapacidad_transtorno=S    -7.426472095022358
+    Attrib vive_con_padre=S    5.102955964456713
+    Attrib vive_con_madre=S    10.856290485912567
+    Attrib vive_con_otro=S    6.794194521069402
+    Attrib cuantas_personas_vive='0 a 3'    3.2733674683105636
+    Attrib cuantas_personas_vive='3 a 7'    -0.40096725526970367
+    Attrib cuantas_personas_vive='>7'    -2.315386648738948
+    Attrib cuantas_piezas_dormir='0 a 3'    -2.685858096747446
+    Attrib cuantas_piezas_dormir='3 a 7'    -1.2425384224701024
+    Attrib cuantas_piezas_dormir='>7'    4.518239545941695
+    Attrib recibe_beneficio=S    -0.33906258357299446
+    Attrib como_se_traslada_escuela=Caminando    -4.570322174345519
+    Attrib como_se_traslada_escuela=En transporte público    9.145316373297742
+    Attrib como_se_traslada_escuela=SIN DATO    -4.839363533503169
+    Attrib como_se_traslada_escuela=En moto    -0.13573406574379984
+    Attrib como_se_traslada_escuela=En vehículo particular    6.63194381139793
+    Attrib como_se_traslada_escuela=En bicicleta    -3.279266959299797
+    Attrib como_se_traslada_escuela=En transporte escolar    4.958855914379403
+    Attrib como_se_traslada_escuela=Otro    -4.618443952151943
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    6.842949584174516
+    Attrib cuanto_tiempo_tarda=SIN DATO    -4.72067357230454
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    4.046711179005722
+    Attrib cuanto_tiempo_tarda=Más de una hora    -5.024443605824672
+    Attrib recibe_alimentacion=S    -5.709939457258686
+    Attrib nivel_pobreza='(-inf-28.9]'    2.468727391841102
+    Attrib nivel_pobreza='(28.9-57.9]'    -1.8168262066119312
+    Attrib nivel_pobreza='(57.9-inf)'    -0.06670149772042869
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    3.496525884131855
+    Attrib grado_curso=5    1.2974525817190181
+    Attrib grado_curso=6    7.208328052045042
+    Attrib grado_curso=7    1.7293704025143952
+    Attrib grado_curso=8    -5.483161077682934
+    Attrib grado_curso=9    -10.06252033352169
+    Attrib grado_curso=10    -19.953598242319604
+    Attrib grado_curso=11    -12.946106514482366
+    Attrib grado_curso=12    -20.593622437851113
+    Attrib grado_curso=13    -19.559117882500324
+    Attrib grado_curso=14    35.73834263427328
+    Attrib grado_curso=15    48.052031511176054
+    Attrib grado_curso=25    0.032563432717099036
+    Attrib grado_curso=26    0.020710431363410164
+    Attrib grado_curso=79    -10.341920801505934
+    Attrib grado_curso=80    4.584910095132592
+    Attrib grado_curso=81    4.946212955122853
+    Attrib grado_curso=87    0.049643439083494154
+    Attrib grado_curso=89    -0.009511521248904767
+    Attrib grado_curso=90    -33.53405544381848
+    Attrib grado_curso=91    -19.317814853883103
+    Attrib grado_curso=93    -0.03393174672387226
+    Attrib grado_curso=96    0.033913185277282334
+    Attrib grado_curso=97    0.02020449347834062
+    Attrib grado_curso=98    -0.017027685250397398
+    Attrib grado_curso=99    -0.01128064478070804
+    Attrib grado_curso=100    -0.011209256099944075
+    Attrib grado_curso=101    0.024808651732058207
+    Attrib grado_curso=102    0.047588376264661295
+    Attrib grado_curso=103    -0.035875942608600046
+    Attrib grado_curso=104    -0.003765079756093692
+    Attrib grado_curso=105    0.0027910754658716716
+    Attrib grado_curso=106    -0.008067715452931279
+    Attrib grado_curso=107    -0.011570759280744768
+    Attrib grado_curso=108    -0.022275937544345405
+    Attrib grado_curso=109    0.020289017693936165
+    Attrib grado_curso=110    -0.034581825319245134
+    Attrib grado_curso=111    0.009985332235007971
+    Attrib grado_curso=112    -0.03761481404764301
+    Attrib grado_curso=113    -0.005225722704636504
+    Attrib grado_curso=115    -0.005770706460703753
+    Attrib grado_curso=125    -0.019639749650944872
+    Attrib grado_curso=155    -0.03166227241932544
+    Attrib grado_curso=156    -0.009754422303690682
+    Attrib grado_curso=157    -0.005948565810919806
+    Attrib edad=0    -9.33477547953558
+    Attrib edad=1    -22.467615051158305
+    Attrib edad=2    -2.090704294312022
+    Attrib edad=3    1.705511708981754
+    Attrib edad=4    7.407028399658315
+    Attrib edad=5    -4.496585337409403
+    Attrib edad=6    16.37581772700215
+    Attrib edad=7    11.247499343604284
+    Attrib edad=8    9.689004143010054
+    Attrib edad=9    13.61547989593601
+    Attrib edad=10    15.860822735742897
+    Attrib edad=11    13.714749558892565
+    Attrib edad=12    17.538003801000297
+    Attrib edad=13    -19.346361601037692
+    Attrib edad=14    -18.336432037704473
+    Attrib edad=15    -16.130402320179222
+    Attrib edad=16    -14.553939432695417
+    Attrib edad=17    -13.52434801923738
+    Attrib edad=18    -17.619268059517825
+    Attrib edad=19    -22.14370355755986
+    Attrib edad=20    -12.447575305005111
+    Attrib tiene_sobreedad=S    -9.52515852500343
+    Attrib sexo=H    -1.0466843257487952
+    Attrib es_indigena=S    -9.480120818165787
+    Attrib idioma=Castellano    -7.317078554107004
+    Attrib idioma=Guarani    -7.9183435669027
+    Attrib idioma=Lengua Indigena    17.512269514176825
+    Attrib idioma=Otros-Extranjero    -9.107049648903486
+    Attrib Tipo_Gestion=Oficial    -1.065248212780583
+    Attrib Tipo_Gestion=Privada    -7.5813927537216
+    Attrib Tipo_Gestion=Subvencionada    5.259120959339215
+    Attrib Tipo_Zona=Rural    0.058644935022095175
+    Attrib Departamento=Concepcion    -1.0854808726789749
+    Attrib Departamento=San Pedro    -5.20642731821867
+    Attrib Departamento=Coordillera    -1.9160941831838578
+    Attrib Departamento=Guaira    -2.9340492704821077
+    Attrib Departamento=Caaguazu    -6.1608949973353875
+    Attrib Departamento=Caazapa    -5.6991812317496455
+    Attrib Departamento=Itaipua    4.067881786619473
+    Attrib Departamento=Misiones    -2.759314981640223
+    Attrib Departamento=Paraguari    12.567780734384257
+    Attrib Departamento=Alto Parana    -4.572369159039596
+    Attrib Departamento=Central    -6.8485360149656085
+    Attrib Departamento=Neembucu    -0.42124130378789654
+    Attrib Departamento=Amambay    -12.747002192148585
+    Attrib Departamento=Canindeyu    -14.797685093390204
+    Attrib Departamento=Presidente Hayes    -22.893630947800688
+    Attrib Departamento=Boqueron    11.134084374813776
+    Attrib Departamento=Alto Paraguay    -1.393419693101669
+    Attrib Departamento=Asuncion    6.010368918959957
+    Attrib Departamento=Territorio Paraguayo    -2.994004735495241
+    Attrib Departamento=Territorio Extranjero    -0.03497845034631955
+    Attrib aprobado_ordinario=S    61.027583431501206
+    Attrib aprobado_complementario=S    51.99527246414527
+    Attrib aprobado_regularizacion=S    54.02877410073083
+    Attrib repitente=S    -10.523058072285608
+    Attrib con_enfermedad=S    8.724820300913366
+    Attrib con_discapacidad_transtorno=S    10.582463294518952
+    Attrib vive_con_padre=S    0.7513702969724243
+    Attrib vive_con_madre=S    -1.4860467998247384
+    Attrib vive_con_otro=S    -0.26120767647830206
+    Attrib cuantas_personas_vive='0 a 3'    -2.1155610413633656
+    Attrib cuantas_personas_vive='3 a 7'    -0.2715411112722454
+    Attrib cuantas_personas_vive='>7'    -1.0599842244177344
+    Attrib cuantas_piezas_dormir='0 a 3'    -4.159777597490681
+    Attrib cuantas_piezas_dormir='3 a 7'    1.399628779235051
+    Attrib cuantas_piezas_dormir='>7'    -0.6528307196822397
+    Attrib recibe_beneficio=S    3.0075963671606254
+    Attrib como_se_traslada_escuela=Caminando    -7.4884296295148385
+    Attrib como_se_traslada_escuela=En transporte público    -5.44244304489578
+    Attrib como_se_traslada_escuela=SIN DATO    -16.468401106710974
+    Attrib como_se_traslada_escuela=En moto    -0.4955171207751007
+    Attrib como_se_traslada_escuela=En vehículo particular    -1.777758964273471
+    Attrib como_se_traslada_escuela=En bicicleta    10.808436566917704
+    Attrib como_se_traslada_escuela=En transporte escolar    -2.275446454610336
+    Attrib como_se_traslada_escuela=Otro    2.4110877851042347
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    -8.732800654906358
+    Attrib cuanto_tiempo_tarda=SIN DATO    6.052442020726278
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -6.437946256750912
+    Attrib cuanto_tiempo_tarda=Más de una hora    2.238747150090529
+    Attrib recibe_alimentacion=S    13.113333506914932
+    Attrib nivel_pobreza='(-inf-28.9]'    1.6055210215116615
+    Attrib nivel_pobreza='(28.9-57.9]'    2.2584787202378407
+    Attrib nivel_pobreza='(57.9-inf)'    -7.285421975449236
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.9716971637604258
+    Attrib grado_curso=5    23.661942544878915
+    Attrib grado_curso=6    -4.251465798751744
+    Attrib grado_curso=7    -5.136580476457467
+    Attrib grado_curso=8    -5.164679992358507
+    Attrib grado_curso=9    -11.29244271999486
+    Attrib grado_curso=10    -21.36961912206947
+    Attrib grado_curso=11    -10.726869271642116
+    Attrib grado_curso=12    -5.257520971568458
+    Attrib grado_curso=13    -8.305670632416147
+    Attrib grado_curso=14    26.942592955237867
+    Attrib grado_curso=15    42.981766733830256
+    Attrib grado_curso=25    0.04935907692279107
+    Attrib grado_curso=26    0.02573171851309604
+    Attrib grado_curso=79    -2.6334371604635414
+    Attrib grado_curso=80    1.7399959518337027
+    Attrib grado_curso=81    -0.06436699503954331
+    Attrib grado_curso=87    0.03247731661775148
+    Attrib grado_curso=89    0.03193986759019539
+    Attrib grado_curso=90    -3.969725535615142
+    Attrib grado_curso=91    -4.203876533326237
+    Attrib grado_curso=93    0.02433093608684153
+    Attrib grado_curso=96    0.02638397785265685
+    Attrib grado_curso=97    0.03260718430335907
+    Attrib grado_curso=98    -0.03701247498726598
+    Attrib grado_curso=99    -0.029138188874547034
+    Attrib grado_curso=100    0.04613454915292277
+    Attrib grado_curso=101    0.035283077571136245
+    Attrib grado_curso=102    -0.007287396163972594
+    Attrib grado_curso=103    0.04448641146070706
+    Attrib grado_curso=104    0.02199876202130817
+    Attrib grado_curso=105    0.0271630123520408
+    Attrib grado_curso=106    -0.047618093733033474
+    Attrib grado_curso=107    -0.03001653156200942
+    Attrib grado_curso=108    -0.038313766333981196
+    Attrib grado_curso=109    0.020942203900308543
+    Attrib grado_curso=110    0.03792185075529632
+    Attrib grado_curso=111    -0.007955775478384018
+    Attrib grado_curso=112    -0.006892180505970125
+    Attrib grado_curso=113    0.048964520835600864
+    Attrib grado_curso=115    -0.037906850930653824
+    Attrib grado_curso=125    0.008682007284963357
+    Attrib grado_curso=155    -0.023235189997590444
+    Attrib grado_curso=156    0.03216981871825543
+    Attrib grado_curso=157    0.02033880589694495
+    Attrib edad=0    -2.801683258206983
+    Attrib edad=1    -3.9893691107493314
+    Attrib edad=2    -16.871483675903402
+    Attrib edad=3    0.6804075321455111
+    Attrib edad=4    -2.874560523086472
+    Attrib edad=5    -10.309424560224828
+    Attrib edad=6    15.34269345352325
+    Attrib edad=7    18.06980012093996
+    Attrib edad=8    12.561513544633563
+    Attrib edad=9    11.246314905920809
+    Attrib edad=10    18.24430860581605
+    Attrib edad=11    24.347406996460386
+    Attrib edad=12    23.945286097069996
+    Attrib edad=13    2.7304614964069107
+    Attrib edad=14    13.897782698364232
+    Attrib edad=15    5.302393493180923
+    Attrib edad=16    -13.134568470552493
+    Attrib edad=17    -25.600492845527075
+    Attrib edad=18    -34.96184957821243
+    Attrib edad=19    -10.165647466760921
+    Attrib edad=20    -7.766506948300881
+    Attrib tiene_sobreedad=S    -33.70116277204104
+    Attrib sexo=H    0.7503547157343737
+    Attrib es_indigena=S    -26.138492990965677
+    Attrib idioma=Castellano    13.286837194683832
+    Attrib idioma=Guarani    9.687368859660111
+    Attrib idioma=Lengua Indigena    0.8954031513295048
+    Attrib idioma=Otros-Extranjero    -21.92265811953576
+    Attrib Tipo_Gestion=Oficial    -3.3722052667513376
+    Attrib Tipo_Gestion=Privada    5.012621296592649
+    Attrib Tipo_Gestion=Subvencionada    -0.7024781270804629
+    Attrib Tipo_Zona=Rural    -2.1795267195641133
+    Attrib Departamento=Concepcion    4.1322600263207
+    Attrib Departamento=San Pedro    4.385444398137449
+    Attrib Departamento=Coordillera    5.2755817261019
+    Attrib Departamento=Guaira    -2.4850861728228875
+    Attrib Departamento=Caaguazu    2.068938783275776
+    Attrib Departamento=Caazapa    12.291643258436702
+    Attrib Departamento=Itaipua    -7.91558564387838
+    Attrib Departamento=Misiones    2.264111656863072
+    Attrib Departamento=Paraguari    2.912625142558025
+    Attrib Departamento=Alto Parana    -1.6657937112317953
+    Attrib Departamento=Central    -1.6444466857986353
+    Attrib Departamento=Neembucu    3.599483476470702
+    Attrib Departamento=Amambay    -1.3709503944945935
+    Attrib Departamento=Canindeyu    0.6404466831362547
+    Attrib Departamento=Presidente Hayes    1.2363295158365561
+    Attrib Departamento=Boqueron    -1.2299888649675124
+    Attrib Departamento=Alto Paraguay    -12.252416362710045
+    Attrib Departamento=Asuncion    1.1744765881469357
+    Attrib Departamento=Territorio Paraguayo    4.452688184603533
+    Attrib Departamento=Territorio Extranjero    0.02338873104309941
+    Attrib aprobado_ordinario=S    31.233060422638456
+    Attrib aprobado_complementario=S    29.733427864150553
+    Attrib aprobado_regularizacion=S    25.114075369068882
+    Attrib repitente=S    -9.957889674215968
+    Attrib con_enfermedad=S    0.14176222133657632
+    Attrib con_discapacidad_transtorno=S    -4.725036359576764
+    Attrib vive_con_padre=S    0.4486464319058498
+    Attrib vive_con_madre=S    -0.2222158879441064
+    Attrib vive_con_otro=S    1.619431427128564
+    Attrib cuantas_personas_vive='0 a 3'    -0.2728142716660273
+    Attrib cuantas_personas_vive='3 a 7'    1.2739246486795726
+    Attrib cuantas_personas_vive='>7'    -0.07412700626025415
+    Attrib cuantas_piezas_dormir='0 a 3'    -0.8358395391845643
+    Attrib cuantas_piezas_dormir='3 a 7'    0.6283354206155087
+    Attrib cuantas_piezas_dormir='>7'    1.2176927438463492
+    Attrib recibe_beneficio=S    -2.1423831870806467
+    Attrib como_se_traslada_escuela=Caminando    0.20062843421696674
+    Attrib como_se_traslada_escuela=En transporte público    -3.1456272847195934
+    Attrib como_se_traslada_escuela=SIN DATO    -4.8531767668393
+    Attrib como_se_traslada_escuela=En moto    -0.6090574765450938
+    Attrib como_se_traslada_escuela=En vehículo particular    2.1173184575866335
+    Attrib como_se_traslada_escuela=En bicicleta    10.754572325314927
+    Attrib como_se_traslada_escuela=En transporte escolar    11.488213375608641
+    Attrib como_se_traslada_escuela=Otro    -10.329421129073111
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    0.9249840123536488
+    Attrib cuanto_tiempo_tarda=SIN DATO    4.006927316842995
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -1.3684041372502744
+    Attrib cuanto_tiempo_tarda=Más de una hora    -1.73023240818267
+    Attrib recibe_alimentacion=S    -2.6403941804436437
+    Attrib nivel_pobreza='(-inf-28.9]'    1.1308967232918232
+    Attrib nivel_pobreza='(28.9-57.9]'    2.0727418098876393
+    Attrib nivel_pobreza='(57.9-inf)'    -2.2440616886123945
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.6080787870185882
+    Attrib grado_curso=5    6.98009836931364
+    Attrib grado_curso=6    13.03319528030223
+    Attrib grado_curso=7    -7.9119993875503125
+    Attrib grado_curso=8    -12.973999650826295
+    Attrib grado_curso=9    -14.257061062793055
+    Attrib grado_curso=10    -16.91839663151543
+    Attrib grado_curso=11    -4.769682381322747
+    Attrib grado_curso=12    -9.603541034298063
+    Attrib grado_curso=13    -16.66869764376761
+    Attrib grado_curso=14    28.114879067441183
+    Attrib grado_curso=15    40.64391403091933
+    Attrib grado_curso=25    -0.04590231585799695
+    Attrib grado_curso=26    0.012473592018753622
+    Attrib grado_curso=79    1.0430990181849584
+    Attrib grado_curso=80    -2.013874393881367
+    Attrib grado_curso=81    15.772295788448028
+    Attrib grado_curso=87    0.014500681414943276
+    Attrib grado_curso=89    0.028780257960454747
+    Attrib grado_curso=90    -13.924489400376942
+    Attrib grado_curso=91    -15.389770873626743
+    Attrib grado_curso=93    -0.037879801173895215
+    Attrib grado_curso=96    -0.031606308314277146
+    Attrib grado_curso=97    0.005177757732562946
+    Attrib grado_curso=98    0.03730436773822687
+    Attrib grado_curso=99    0.03823501723132029
+    Attrib grado_curso=100    -0.04633429279925099
+    Attrib grado_curso=101    -0.013066901129615331
+    Attrib grado_curso=102    -0.049560646504302974
+    Attrib grado_curso=103    -0.015478234014775237
+    Attrib grado_curso=104    -0.010182389123035152
+    Attrib grado_curso=105    -0.023335846096644075
+    Attrib grado_curso=106    -0.03963370928261202
+    Attrib grado_curso=107    -0.009764793827392329
+    Attrib grado_curso=108    -0.01923485504200069
+    Attrib grado_curso=109    -0.013654069629973974
+    Attrib grado_curso=110    -0.04888124447680625
+    Attrib grado_curso=111    0.04487685140947194
+    Attrib grado_curso=112    0.0017070037191595153
+    Attrib grado_curso=113    -0.034359927936224555
+    Attrib grado_curso=115    0.02068832497740171
+    Attrib grado_curso=125    0.005945468739178637
+    Attrib grado_curso=155    -0.002460299831989074
+    Attrib grado_curso=156    -0.022204497541380742
+    Attrib grado_curso=157    0.04723122175378065
+    Attrib edad=0    -3.755324255279454
+    Attrib edad=1    -15.330278678993151
+    Attrib edad=2    -8.739827338229297
+    Attrib edad=3    6.213025865487715
+    Attrib edad=4    5.7497074531226335
+    Attrib edad=5    -4.5732285325349675
+    Attrib edad=6    22.205647886466398
+    Attrib edad=7    11.52068200544298
+    Attrib edad=8    8.818303643896943
+    Attrib edad=9    13.672358003546412
+    Attrib edad=10    11.200155604977116
+    Attrib edad=11    13.804456595310137
+    Attrib edad=12    5.98571300983807
+    Attrib edad=13    10.105885394667997
+    Attrib edad=14    11.499871006516493
+    Attrib edad=15    1.3071463330128106
+    Attrib edad=16    -10.533697757277762
+    Attrib edad=17    -21.132649213418087
+    Attrib edad=18    -27.26094148784021
+    Attrib edad=19    -21.73595822553828
+    Attrib edad=20    -20.675351695644082
+    Attrib tiene_sobreedad=S    -18.923716966364196
+    Attrib sexo=H    -5.538447271509562
+    Attrib es_indigena=S    -12.249359513968303
+    Attrib idioma=Castellano    -0.27485088309803646
+    Attrib idioma=Guarani    -1.1350803614123797
+    Attrib idioma=Lengua Indigena    0.07891838394186926
+    Attrib idioma=Otros-Extranjero    0.10662016303191807
+    Attrib Tipo_Gestion=Oficial    -4.496440896838454
+    Attrib Tipo_Gestion=Privada    0.46079910587108264
+    Attrib Tipo_Gestion=Subvencionada    3.361753565092218
+    Attrib Tipo_Zona=Rural    -5.295820372364422
+    Attrib Departamento=Concepcion    -5.157698126619967
+    Attrib Departamento=San Pedro    -3.853955502716367
+    Attrib Departamento=Coordillera    -6.627589803308897
+    Attrib Departamento=Guaira    -3.392774272811009
+    Attrib Departamento=Caaguazu    -2.372273030137838
+    Attrib Departamento=Caazapa    -0.003355155198728255
+    Attrib Departamento=Itaipua    -3.551619364546245
+    Attrib Departamento=Misiones    6.132581920863185
+    Attrib Departamento=Paraguari    13.880820149757108
+    Attrib Departamento=Alto Parana    -9.4597363348797
+    Attrib Departamento=Central    -2.547783684560754
+    Attrib Departamento=Neembucu    6.699655755492671
+    Attrib Departamento=Amambay    -14.302026219124539
+    Attrib Departamento=Canindeyu    -3.5623358698569185
+    Attrib Departamento=Presidente Hayes    0.0508923410537505
+    Attrib Departamento=Boqueron    10.760281697557213
+    Attrib Departamento=Alto Paraguay    2.0536158647460407
+    Attrib Departamento=Asuncion    3.13380564555752
+    Attrib Departamento=Territorio Paraguayo    1.5205884426995646
+    Attrib Departamento=Territorio Extranjero    0.012980010571964323
+    Attrib aprobado_ordinario=S    33.56314129063945
+    Attrib aprobado_complementario=S    32.838028894372044
+    Attrib aprobado_regularizacion=S    35.45053726345277
+    Attrib repitente=S    -12.476514025800702
+    Attrib con_enfermedad=S    -4.969837760635224
+    Attrib con_discapacidad_transtorno=S    5.391082008515339
+    Attrib vive_con_padre=S    7.490885503513103
+    Attrib vive_con_madre=S    11.857579034579254
+    Attrib vive_con_otro=S    -4.671763007477514
+    Attrib cuantas_personas_vive='0 a 3'    5.135112761107983
+    Attrib cuantas_personas_vive='3 a 7'    3.7111323825680467
+    Attrib cuantas_personas_vive='>7'    -9.49257569294702
+    Attrib cuantas_piezas_dormir='0 a 3'    -3.3232848564203117
+    Attrib cuantas_piezas_dormir='3 a 7'    2.0730070234678717
+    Attrib cuantas_piezas_dormir='>7'    0.6198866289523925
+    Attrib recibe_beneficio=S    -2.1890000861380328
+    Attrib como_se_traslada_escuela=Caminando    -2.8271666487075233
+    Attrib como_se_traslada_escuela=En transporte público    -9.729372422611123
+    Attrib como_se_traslada_escuela=SIN DATO    -5.637277029642137
+    Attrib como_se_traslada_escuela=En moto    3.3246182933010635
+    Attrib como_se_traslada_escuela=En vehículo particular    3.868083347492818
+    Attrib como_se_traslada_escuela=En bicicleta    -0.4552474813965184
+    Attrib como_se_traslada_escuela=En transporte escolar    11.044399186219685
+    Attrib como_se_traslada_escuela=Otro    -3.3221165615253905
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    -3.263014464975867
+    Attrib cuanto_tiempo_tarda=SIN DATO    7.5370017252989685
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -3.736965145212642
+    Attrib cuanto_tiempo_tarda=Más de una hora    -1.8528638353237907
+    Attrib recibe_alimentacion=S    6.458949760395865
+    Attrib nivel_pobreza='(-inf-28.9]'    0.9450904562774082
+    Attrib nivel_pobreza='(28.9-57.9]'    -2.0307527958532487
+    Attrib nivel_pobreza='(57.9-inf)'    0.4642369536187414
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    2.0951556387334733
+    Attrib grado_curso=5    7.64974965934444
+    Attrib grado_curso=6    11.57887929280664
+    Attrib grado_curso=7    -9.933946026134288
+    Attrib grado_curso=8    0.9111496147070832
+    Attrib grado_curso=9    -1.1647530332237428
+    Attrib grado_curso=10    -43.14955983323835
+    Attrib grado_curso=11    -18.319297068711652
+    Attrib grado_curso=12    -7.774065419013445
+    Attrib grado_curso=13    -20.374767810009875
+    Attrib grado_curso=14    48.44123532087692
+    Attrib grado_curso=15    46.95205783341818
+    Attrib grado_curso=25    0.009580960446527356
+    Attrib grado_curso=26    -0.04942218213736002
+    Attrib grado_curso=79    -1.646326177474816
+    Attrib grado_curso=80    1.775640559161618
+    Attrib grado_curso=81    -2.879888243957295
+    Attrib grado_curso=87    -0.013807432848120929
+    Attrib grado_curso=89    -0.007098631352655392
+    Attrib grado_curso=90    -19.39352458180657
+    Attrib grado_curso=91    -22.15075539982811
+    Attrib grado_curso=93    0.016272434307825198
+    Attrib grado_curso=96    -0.0035323128843228746
+    Attrib grado_curso=97    -0.015959796211182688
+    Attrib grado_curso=98    -0.045191072962917966
+    Attrib grado_curso=99    0.048548053727344595
+    Attrib grado_curso=100    -0.018701084219334932
+    Attrib grado_curso=101    0.025527927617393406
+    Attrib grado_curso=102    0.04820418343049743
+    Attrib grado_curso=103    -0.032869828469242385
+    Attrib grado_curso=104    0.0440421092298519
+    Attrib grado_curso=105    0.001931035364583264
+    Attrib grado_curso=106    0.043064618104485405
+    Attrib grado_curso=107    -0.022554148779611552
+    Attrib grado_curso=108    0.041667607732871606
+    Attrib grado_curso=109    -0.026100972769329392
+    Attrib grado_curso=110    0.004442154158464315
+    Attrib grado_curso=111    0.04935057415959622
+    Attrib grado_curso=112    -0.02889568690086666
+    Attrib grado_curso=113    0.009418405390196616
+    Attrib grado_curso=115    0.006955652804222667
+    Attrib grado_curso=125    -0.04654284374853537
+    Attrib grado_curso=155    -0.023878832929314087
+    Attrib grado_curso=156    0.0402870307465322
+    Attrib grado_curso=157    0.0068079932600638715
+    Attrib edad=0    -7.3827945111804985
+    Attrib edad=1    -17.723148830021234
+    Attrib edad=2    -8.644005951936578
+    Attrib edad=3    -5.928440384187332
+    Attrib edad=4    7.981137554398028
+    Attrib edad=5    -7.146993533445688
+    Attrib edad=6    13.60016815581842
+    Attrib edad=7    8.147836246693135
+    Attrib edad=8    15.721810879785801
+    Attrib edad=9    22.479934055218138
+    Attrib edad=10    12.48894354360413
+    Attrib edad=11    25.957323396260087
+    Attrib edad=12    -0.631067486840859
+    Attrib edad=13    6.162583430334047
+    Attrib edad=14    -3.1434792879911373
+    Attrib edad=15    -2.6954550284557106
+    Attrib edad=16    -11.809670356627402
+    Attrib edad=17    -18.850735682215056
+    Attrib edad=18    -21.679232844743
+    Attrib edad=19    -18.40456026335278
+    Attrib edad=20    -28.744073047080136
+    Attrib tiene_sobreedad=S    -0.9789575537013773
+    Attrib sexo=H    1.1700230463858567
+    Attrib es_indigena=S    -11.332228341531483
+    Attrib idioma=Castellano    7.2811791562238355
+    Attrib idioma=Guarani    -6.738442077130072
+    Attrib idioma=Lengua Indigena    -0.15512195068955392
+    Attrib idioma=Otros-Extranjero    -4.684205984981601
+    Attrib Tipo_Gestion=Oficial    7.36224868161098
+    Attrib Tipo_Gestion=Privada    -7.9255057299448755
+    Attrib Tipo_Gestion=Subvencionada    -1.596189997896629
+    Attrib Tipo_Zona=Rural    -13.771922304776941
+    Attrib Departamento=Concepcion    -10.336482459688074
+    Attrib Departamento=San Pedro    -5.255878298845828
+    Attrib Departamento=Coordillera    -0.2929368597967605
+    Attrib Departamento=Guaira    -4.652534959862994
+    Attrib Departamento=Caaguazu    -9.756780409725327
+    Attrib Departamento=Caazapa    3.9497064788716054
+    Attrib Departamento=Itaipua    -11.549194808497242
+    Attrib Departamento=Misiones    3.496003856262046
+    Attrib Departamento=Paraguari    6.267477367533467
+    Attrib Departamento=Alto Parana    -2.537780615360004
+    Attrib Departamento=Central    -3.403600443548632
+    Attrib Departamento=Neembucu    5.921710697795456
+    Attrib Departamento=Amambay    -11.695264487075008
+    Attrib Departamento=Canindeyu    -7.886737062978738
+    Attrib Departamento=Presidente Hayes    -7.203467222731967
+    Attrib Departamento=Boqueron    6.34772626387453
+    Attrib Departamento=Alto Paraguay    13.670366378899713
+    Attrib Departamento=Asuncion    -1.1871628961060219
+    Attrib Departamento=Territorio Paraguayo    0.016771035315018994
+    Attrib Departamento=Territorio Extranjero    0.02399508183207541
+    Attrib aprobado_ordinario=S    38.17882583735601
+    Attrib aprobado_complementario=S    54.723933061964004
+    Attrib aprobado_regularizacion=S    49.07934295068034
+    Attrib repitente=S    5.600970488474772
+    Attrib con_enfermedad=S    5.529148054411026
+    Attrib con_discapacidad_transtorno=S    -8.205377713690718
+    Attrib vive_con_padre=S    -2.488973988888466
+    Attrib vive_con_madre=S    5.022799469954963
+    Attrib vive_con_otro=S    -1.4277985083053253
+    Attrib cuantas_personas_vive='0 a 3'    -3.3416506008556044
+    Attrib cuantas_personas_vive='3 a 7'    -1.4753109770239319
+    Attrib cuantas_personas_vive='>7'    2.6807180199610467
+    Attrib cuantas_piezas_dormir='0 a 3'    0.43366295317004877
+    Attrib cuantas_piezas_dormir='3 a 7'    3.4407144317735874
+    Attrib cuantas_piezas_dormir='>7'    -5.918803295557304
+    Attrib recibe_beneficio=S    -1.5819233881609231
+    Attrib como_se_traslada_escuela=Caminando    -6.159990981586743
+    Attrib como_se_traslada_escuela=En transporte público    0.5343684893569833
+    Attrib como_se_traslada_escuela=SIN DATO    -6.413068646681299
+    Attrib como_se_traslada_escuela=En moto    -3.2180920500288894
+    Attrib como_se_traslada_escuela=En vehículo particular    -8.437466995198545
+    Attrib como_se_traslada_escuela=En bicicleta    4.960979481340421
+    Attrib como_se_traslada_escuela=En transporte escolar    8.574892085940446
+    Attrib como_se_traslada_escuela=Otro    -2.6789732298490856
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    -0.39488687245069465
+    Attrib cuanto_tiempo_tarda=SIN DATO    5.9465362362908065
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -5.229124497580484
+    Attrib cuanto_tiempo_tarda=Más de una hora    -4.605414822391212
+    Attrib recibe_alimentacion=S    1.3229252475711695
+    Attrib nivel_pobreza='(-inf-28.9]'    1.494793594632454
+    Attrib nivel_pobreza='(28.9-57.9]'    6.607030853577035
+    Attrib nivel_pobreza='(57.9-inf)'    -10.152426724368532
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.6671830170768969
+    Attrib grado_curso=5    14.345541107686227
+    Attrib grado_curso=6    1.1371178391689643
+    Attrib grado_curso=7    2.8066734797068964
+    Attrib grado_curso=8    6.645513864638835
+    Attrib grado_curso=9    -5.554477560799437
+    Attrib grado_curso=10    -18.485619297948908
+    Attrib grado_curso=11    -17.14314835226693
+    Attrib grado_curso=12    -3.917349328422031
+    Attrib grado_curso=13    -28.693095529710767
+    Attrib grado_curso=14    14.221556963295164
+    Attrib grado_curso=15    36.01229297943279
+    Attrib grado_curso=25    0.03803365335585503
+    Attrib grado_curso=26    -0.015336110971206143
+    Attrib grado_curso=79    0.11762291568964556
+    Attrib grado_curso=80    7.552036526261287
+    Attrib grado_curso=81    7.639617442324729
+    Attrib grado_curso=87    0.049946960841566634
+    Attrib grado_curso=89    0.02307752042581926
+    Attrib grado_curso=90    -5.991037797531405
+    Attrib grado_curso=91    -19.61560500155949
+    Attrib grado_curso=93    0.04698729876486327
+    Attrib grado_curso=96    0.004795262642735831
+    Attrib grado_curso=97    -0.03570797673094054
+    Attrib grado_curso=98    -0.013223972533602156
+    Attrib grado_curso=99    -0.004762619084878149
+    Attrib grado_curso=100    0.004813538217217764
+    Attrib grado_curso=101    0.049169753224472534
+    Attrib grado_curso=102    0.03979968563660184
+    Attrib grado_curso=103    0.02242588350454572
+    Attrib grado_curso=104    -0.03836670279291202
+    Attrib grado_curso=105    0.030262924645570732
+    Attrib grado_curso=106    0.0011270464115423623
+    Attrib grado_curso=107    -0.049216723223545256
+    Attrib grado_curso=108    0.03839107449754735
+    Attrib grado_curso=109    -0.04740946385211571
+    Attrib grado_curso=110    -0.004160098831891654
+    Attrib grado_curso=111    0.022059952232115473
+    Attrib grado_curso=112    0.03213911743469543
+    Attrib grado_curso=113    0.0226599781703663
+    Attrib grado_curso=115    -0.045146530862574946
+    Attrib grado_curso=125    0.04531816824514412
+    Attrib grado_curso=155    -0.00578048115225125
+    Attrib grado_curso=156    0.04392039238422092
+    Attrib grado_curso=157    0.021723239461877375
+    Attrib edad=0    2.8367967734495365
+    Attrib edad=1    -12.78449976871376
+    Attrib edad=2    -5.4773484315004755
+    Attrib edad=3    -8.387101944283854
+    Attrib edad=4    7.583626548158025
+    Attrib edad=5    -1.5434242778381742
+    Attrib edad=6    13.814947813777106
+    Attrib edad=7    7.874267752061937
+    Attrib edad=8    9.738774163751117
+    Attrib edad=9    3.4245716025945554
+    Attrib edad=10    12.844288145322722
+    Attrib edad=11    17.58798736698747
+    Attrib edad=12    15.375239199879461
+    Attrib edad=13    14.611927076941743
+    Attrib edad=14    20.91358086104782
+    Attrib edad=15    3.48591037291687
+    Attrib edad=16    0.021953082434578153
+    Attrib edad=17    -23.764962086186454
+    Attrib edad=18    -28.16197807616332
+    Attrib edad=19    -29.159649330392313
+    Attrib edad=20    -32.894421945143
+    Attrib tiene_sobreedad=S    -25.757470333811433
+    Attrib sexo=H    2.1763378188135203
+    Attrib es_indigena=S    -12.274849368376824
+    Attrib idioma=Castellano    1.0796811233496042
+    Attrib idioma=Guarani    4.24107608872802
+    Attrib idioma=Lengua Indigena    -3.1023977313752904
+    Attrib idioma=Otros-Extranjero    -3.4967025764346658
+    Attrib Tipo_Gestion=Oficial    6.745331291137097
+    Attrib Tipo_Gestion=Privada    -13.403967253406464
+    Attrib Tipo_Gestion=Subvencionada    5.998343582250133
+    Attrib Tipo_Zona=Rural    -7.93712148867378
+    Attrib Departamento=Concepcion    -9.547497616460488
+    Attrib Departamento=San Pedro    -2.526949707846615
+    Attrib Departamento=Coordillera    1.2961893473718251
+    Attrib Departamento=Guaira    -2.67153677102277
+    Attrib Departamento=Caaguazu    -3.7365917273240727
+    Attrib Departamento=Caazapa    5.3954915977898485
+    Attrib Departamento=Itaipua    8.587820069983753
+    Attrib Departamento=Misiones    14.401838869087285
+    Attrib Departamento=Paraguari    11.9912947186145
+    Attrib Departamento=Alto Parana    -11.58515443259897
+    Attrib Departamento=Central    -4.132156197139985
+    Attrib Departamento=Neembucu    6.11856110997384
+    Attrib Departamento=Amambay    -16.16545351947367
+    Attrib Departamento=Canindeyu    -4.256078721783432
+    Attrib Departamento=Presidente Hayes    -2.219888296094977
+    Attrib Departamento=Boqueron    14.434842268586562
+    Attrib Departamento=Alto Paraguay    -11.93897185149057
+    Attrib Departamento=Asuncion    -5.955395040143086
+    Attrib Departamento=Territorio Paraguayo    1.74405328203498
+    Attrib Departamento=Territorio Extranjero    -0.01858881779189088
+    Attrib aprobado_ordinario=S    28.54119503878797
+    Attrib aprobado_complementario=S    28.912247335319222
+    Attrib aprobado_regularizacion=S    30.40329045944505
+    Attrib repitente=S    -25.805972421354387
+    Attrib con_enfermedad=S    -6.757877250391405
+    Attrib con_discapacidad_transtorno=S    15.915865293750727
+    Attrib vive_con_padre=S    2.810609190161102
+    Attrib vive_con_madre=S    9.339131737166786
+    Attrib vive_con_otro=S    -2.3463195753268655
+    Attrib cuantas_personas_vive='0 a 3'    -1.602331375610997
+    Attrib cuantas_personas_vive='3 a 7'    2.0279302957157914
+    Attrib cuantas_personas_vive='>7'    -1.090540366598275
+    Attrib cuantas_piezas_dormir='0 a 3'    -1.4865627424360361
+    Attrib cuantas_piezas_dormir='3 a 7'    0.7177769328270265
+    Attrib cuantas_piezas_dormir='>7'    0.09757306178895007
+    Attrib recibe_beneficio=S    -0.8924611076735152
+    Attrib como_se_traslada_escuela=Caminando    2.0958186767893205
+    Attrib como_se_traslada_escuela=En transporte público    -7.059702955102359
+    Attrib como_se_traslada_escuela=SIN DATO    -3.421928346943651
+    Attrib como_se_traslada_escuela=En moto    4.1990327163885945
+    Attrib como_se_traslada_escuela=En vehículo particular    -4.881892944386181
+    Attrib como_se_traslada_escuela=En bicicleta    3.0418414168453416
+    Attrib como_se_traslada_escuela=En transporte escolar    6.37161593515628
+    Attrib como_se_traslada_escuela=Otro    -4.2570926251070516
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    0.0719117266752146
+    Attrib cuanto_tiempo_tarda=SIN DATO    2.3995647175598642
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -4.10762301923359
+    Attrib cuanto_tiempo_tarda=Más de una hora    0.26961350294442227
+    Attrib recibe_alimentacion=S    -0.32018068808462197
+    Attrib nivel_pobreza='(-inf-28.9]'    8.051129386389183
+    Attrib nivel_pobreza='(28.9-57.9]'    -4.015763470841284
+    Attrib nivel_pobreza='(57.9-inf)'    -4.711924820279442
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.5548969129370305
+    Attrib grado_curso=5    1.8852245466733555
+    Attrib grado_curso=6    -1.4274989228469215
+    Attrib grado_curso=7    0.9291607142017987
+    Attrib grado_curso=8    -3.4044344853895545
+    Attrib grado_curso=9    -1.5018811323491288
+    Attrib grado_curso=10    -36.226203449295944
+    Attrib grado_curso=11    4.569681817546871
+    Attrib grado_curso=12    2.7345735087019896
+    Attrib grado_curso=13    -29.044823939020315
+    Attrib grado_curso=14    33.34603312837231
+    Attrib grado_curso=15    38.71909004919644
+    Attrib grado_curso=25    -0.02001120614070372
+    Attrib grado_curso=26    0.03330771033718742
+    Attrib grado_curso=79    -2.67161286712722
+    Attrib grado_curso=80    -3.2334703181884383
+    Attrib grado_curso=81    -1.7147661415149789
+    Attrib grado_curso=87    0.030327386119349403
+    Attrib grado_curso=89    -0.04903855400116134
+    Attrib grado_curso=90    -5.70204561527986
+    Attrib grado_curso=91    -4.774699037143255
+    Attrib grado_curso=93    -0.040825009936151846
+    Attrib grado_curso=96    0.010644771360752606
+    Attrib grado_curso=97    -0.022845140908032836
+    Attrib grado_curso=98    0.040383344550831576
+    Attrib grado_curso=99    0.0069785891198629185
+    Attrib grado_curso=100    0.01952522897515277
+    Attrib grado_curso=101    0.020781815446800786
+    Attrib grado_curso=102    0.020630095638028534
+    Attrib grado_curso=103    0.020639304545265386
+    Attrib grado_curso=104    -0.0334473464292536
+    Attrib grado_curso=105    -0.016884734093978462
+    Attrib grado_curso=106    0.03676988676654562
+    Attrib grado_curso=107    -0.02068926982773457
+    Attrib grado_curso=108    0.01853168171354462
+    Attrib grado_curso=109    -0.0023207441068107473
+    Attrib grado_curso=110    -0.03656315961619351
+    Attrib grado_curso=111    0.04893028552875396
+    Attrib grado_curso=112    -0.017081087810691765
+    Attrib grado_curso=113    0.04639328716803254
+    Attrib grado_curso=115    -0.03272585891048572
+    Attrib grado_curso=125    0.02902895538356652
+    Attrib grado_curso=155    0.0361246191520041
+    Attrib grado_curso=156    0.02403804312706724
+    Attrib grado_curso=157    -0.021631021863481925
+    Attrib edad=0    -7.0678788988711565
+    Attrib edad=1    -7.625572795593428
+    Attrib edad=2    -9.485444916170117
+    Attrib edad=3    -7.5571684388698435
+    Attrib edad=4    -1.1557273752154789
+    Attrib edad=5    5.041896116052483
+    Attrib edad=6    9.357341123147869
+    Attrib edad=7    7.237503306071059
+    Attrib edad=8    3.26618658848162
+    Attrib edad=9    18.41959296208441
+    Attrib edad=10    9.859054667285019
+    Attrib edad=11    6.2910463959645515
+    Attrib edad=12    7.94762031697463
+    Attrib edad=13    6.3827482739890105
+    Attrib edad=14    -18.813789642578467
+    Attrib edad=15    -0.6903569158397477
+    Attrib edad=16    1.630401454190213
+    Attrib edad=17    -4.723397349395727
+    Attrib edad=18    -6.694676871355281
+    Attrib edad=19    -10.116078042644093
+    Attrib edad=20    -11.59822705777208
+    Attrib tiene_sobreedad=S    3.2071901894873314
+    Attrib sexo=H    -7.8878158917523145
+    Attrib es_indigena=S    9.217583679099489
+    Attrib idioma=Castellano    4.796423255035344
+    Attrib idioma=Guarani    2.0447475895427707
+    Attrib idioma=Lengua Indigena    -10.196697659565784
+    Attrib idioma=Otros-Extranjero    2.3419226317384862
+    Attrib Tipo_Gestion=Oficial    7.960820132572098
+    Attrib Tipo_Gestion=Privada    -8.755123704094032
+    Attrib Tipo_Gestion=Subvencionada    0.2554325935929577
+    Attrib Tipo_Zona=Rural    5.24281901202152
+    Attrib Departamento=Concepcion    -3.0719460474049036
+    Attrib Departamento=San Pedro    0.697116754632498
+    Attrib Departamento=Coordillera    -3.764033694021743
+    Attrib Departamento=Guaira    -0.9366821340015609
+    Attrib Departamento=Caaguazu    0.5139865825289636
+    Attrib Departamento=Caazapa    -12.854004929611422
+    Attrib Departamento=Itaipua    0.7056062416790747
+    Attrib Departamento=Misiones    5.7492455944579115
+    Attrib Departamento=Paraguari    5.57204868353432
+    Attrib Departamento=Alto Parana    -5.197477105192291
+    Attrib Departamento=Central    -2.383475496822609
+    Attrib Departamento=Neembucu    -1.3756529594263152
+    Attrib Departamento=Amambay    2.1745811843140506
+    Attrib Departamento=Canindeyu    2.3132425086413324
+    Attrib Departamento=Presidente Hayes    1.467942339093984
+    Attrib Departamento=Boqueron    -5.1978636802625635
+    Attrib Departamento=Alto Paraguay    6.673603019996315
+    Attrib Departamento=Asuncion    -2.5901689853927894
+    Attrib Departamento=Territorio Paraguayo    2.526008201582961
+    Attrib Departamento=Territorio Extranjero    -0.016781252130954154
+    Attrib aprobado_ordinario=S    32.653915631595154
+    Attrib aprobado_complementario=S    31.411578528153285
+    Attrib aprobado_regularizacion=S    30.625767868283873
+    Attrib repitente=S    -12.139695236883412
+    Attrib con_enfermedad=S    5.028522303430708
+    Attrib con_discapacidad_transtorno=S    5.921246678156806
+    Attrib vive_con_padre=S    3.7775154085993696
+    Attrib vive_con_madre=S    1.911122214613752
+    Attrib vive_con_otro=S    1.8892734306278498
+    Attrib cuantas_personas_vive='0 a 3'    -1.5201758574582622
+    Attrib cuantas_personas_vive='3 a 7'    -0.6571048658021074
+    Attrib cuantas_personas_vive='>7'    1.7199077541939045
+    Attrib cuantas_piezas_dormir='0 a 3'    0.6852855303262846
+    Attrib cuantas_piezas_dormir='3 a 7'    -1.3695979977122905
+    Attrib cuantas_piezas_dormir='>7'    0.12144746721857437
+    Attrib recibe_beneficio=S    2.1458569453003014
+    Attrib como_se_traslada_escuela=Caminando    -4.367160202901362
+    Attrib como_se_traslada_escuela=En transporte público    1.7649397839105125
+    Attrib como_se_traslada_escuela=SIN DATO    4.746293511912056
+    Attrib como_se_traslada_escuela=En moto    -4.312328028303632
+    Attrib como_se_traslada_escuela=En vehículo particular    13.809604824580896
+    Attrib como_se_traslada_escuela=En bicicleta    -11.133078113621966
+    Attrib como_se_traslada_escuela=En transporte escolar    -0.652633171183193
+    Attrib como_se_traslada_escuela=Otro    -3.0439235339298016
+    Attrib cuanto_tiempo_tarda=Menos de 30 minutos    0.017848449857361573
+    Attrib cuanto_tiempo_tarda=SIN DATO    -3.945694131584108
+    Attrib cuanto_tiempo_tarda=Entre 30 minutos y 1 hora    -1.5762946748964537
+    Attrib cuanto_tiempo_tarda=Más de una hora    4.420254099399409
+    Attrib recibe_alimentacion=S    0.29086088756163414
+    Attrib nivel_pobreza='(-inf-28.9]'    -1.8891655387445079
+    Attrib nivel_pobreza='(28.9-57.9]'    4.112493021749105
+    Attrib nivel_pobreza='(57.9-inf)'    -2.730158003492177
+Class N
+    Input
+    Node 0
+Class S
+    Input
+    Node 1
+
+
+Time taken to build model: 1726.59 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     1094828               95.8079 %
+Incorrectly Classified Instances     47905                4.1921 %
+Kappa statistic                          0.1881
+Mean absolute error                      0.0777
+Root mean squared error                  0.1917
+Relative absolute error                 96.3087 %
+Root relative squared error             95.44   %
+Total Number of Instances          1142733     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,995    0,874    0,963      0,995    0,978      0,238    0,781     0,984     N
+                 0,126    0,005    0,508      0,126    0,202      0,238    0,781     0,229     S
+Weighted Avg.    0,958    0,838    0,944      0,958    0,946      0,238    0,781     0,952     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+ 1088776    5853 |       a = N
+   42052    6052 |       b = S
+
